@@ -6,4 +6,71 @@
         android:layout_height="match_parent"
         tools:context=".RegisterActivity">
 
+    <Button
+            android:id="@+id/button3"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/register"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/editText7" />
+
+    <EditText
+            android:id="@+id/editText7"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+    <EditText
+            android:id="@+id/editText8"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="51dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+            android:id="@+id/editText5"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText8" />
+
+    <EditText
+            android:id="@+id/editText6"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <Button
+            android:id="@+id/button2"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="19dp"
+            android:text="@android:string/cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
