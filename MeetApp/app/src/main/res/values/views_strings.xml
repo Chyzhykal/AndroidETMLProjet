@@ -7,4 +7,9 @@
     <string name="username">Username</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="cancel">Cancel</string>
+    <string name="phone_num_disp">Phone Number :</string>
+    <string name="user_disp">Username :</string>
+    <string name="edit">Edit</string>
+    <string name="join_date">Join Date :</string>
+    <string name="back">Back</string>
 </resources>
