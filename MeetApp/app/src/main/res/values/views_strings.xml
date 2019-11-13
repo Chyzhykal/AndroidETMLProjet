@@ -12,4 +12,6 @@
     <string name="edit">Edit</string>
     <string name="join_date">Join Date :</string>
     <string name="back">Back</string>
+    <string name="create_event">+</string>
+    <string name="profile">Profile</string>
 </resources>

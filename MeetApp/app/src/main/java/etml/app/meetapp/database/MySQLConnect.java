@@ -1,4 +1,4 @@
-package etml.app.meetapp.database;
+/*package etml.app.meetapp.database;
 
 import android.os.AsyncTask;
 import android.widget.Toast;
@@ -56,4 +56,4 @@ class MySQLConnect extends AsyncTask<String, Void, String>{
     protected void onPostExecute(String result) {
         txtData.setText(result);
     }
-}
+}*/

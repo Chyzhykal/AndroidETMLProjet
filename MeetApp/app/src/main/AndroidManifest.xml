@@ -10,11 +10,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".ProfileActivity"></activity>
-        <activity android:name=".BrowseEventsActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".CreateEventActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".BrowseEventsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
