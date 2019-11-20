@@ -17,6 +17,10 @@ public class Event {
     public Event(){
     }
 
+    public Event(String name){
+        this.name = name;
+    }
+
     public void setId(int newId){
         this.id = newId;
     }
