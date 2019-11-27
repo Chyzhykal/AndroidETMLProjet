@@ -24,6 +24,7 @@ public class EventEntity {
     public EventEntity(String name){
         this.name=name;
     }
+
     public int getFkUserCreator() {
         return fkUserCreator;
     }
@@ -134,5 +135,9 @@ public class EventEntity {
 
     public Image getPictureObject(){
         return pictureObject;
+    }
+
+    public int getParticipantCount(){
+        return 0;
     }
 }
