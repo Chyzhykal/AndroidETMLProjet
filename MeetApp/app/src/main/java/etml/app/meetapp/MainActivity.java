@@ -2,6 +2,7 @@ package etml.app.meetapp;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -14,6 +15,10 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
+
+import etml.app.meetapp.Entities.EventEntity;
+import etml.app.meetapp.Repositories.EventRepository;
+import etml.app.meetapp.database.ConnectMySQL;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,9 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-// TODO Auto-generated method stub
-                ConnectMySql connectMySql = new ConnectMySql();
-                connectMySql.execute("");
+        // TODO Auto-generated method stub
+                ShowTestEvents();
             }
         });
         btnClear.setOnClickListener(new View.OnClickListener() {
@@ -48,43 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private class ConnectMySql extends AsyncTask<String, Void, String> {
-        String res = "";
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            Toast.makeText(MainActivity.this, "Please wait...", Toast.LENGTH_SHORT).show();
-
-        }
-
-        @Override
-        protected String doInBackground(String... params) {
-            try {
-                Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection(url, user, pass);
-                System.out.println("Database connection success");
-
-                String result = "Database Connection Successful\n";
-                Statement st = con.createStatement();
-                ResultSet rs = st.executeQuery("select catName from t_evCategory");
-                ResultSetMetaData rsmd = rs.getMetaData();
-
-                while (rs.next()) {
-                    result += rs.getString(1).toString() + "\n";
-                }
-                res = result;
-            } catch (Exception e) {
-                e.printStackTrace();
-                res = e.toString();
-            }
-            return res;
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            txtData.setText(result);
-        }
+    public void ShowTestEvents(){
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+        ConnectMySQL.getInstance().connect();
+        EventRepository repository = new EventRepository();
+        repository.getAll();
     }
-
 }

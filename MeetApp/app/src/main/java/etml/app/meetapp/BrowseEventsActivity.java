@@ -20,7 +20,7 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-import etml.app.meetapp.Objects.Event;
+import etml.app.meetapp.Entities.EventEntity;
 
 public class BrowseEventsActivity extends AppCompatActivity {
     LinearLayout view;
@@ -35,19 +35,19 @@ public class BrowseEventsActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                List<Event> testEvents = new ArrayList<Event>();
-                testEvents.add(new Event("123"));
-                testEvents.add(new Event("321"));
-                testEvents.add(new Event("ah ok"));
-                testEvents.add(new Event("oh"));
-                testEvents.add(new Event("ooo"));
+                List<EventEntity> testEvents = new ArrayList<EventEntity>();
+                testEvents.add(new EventEntity("123"));
+                testEvents.add(new EventEntity("321"));
+                testEvents.add(new EventEntity("ah ok"));
+                testEvents.add(new EventEntity("oh"));
+                testEvents.add(new EventEntity("ooo"));
                 Log.d("ok", "events created");
                 showEvents(testEvents);
             }
         });
     }
 
-    private void showEvents(List<Event> events){
+    private void showEvents(List<EventEntity> events){
         Log.d("size", String.valueOf(events.size()));
         for (int i = 0; i < events.size(); ++i){
             Log.d("ok", "event sent");
