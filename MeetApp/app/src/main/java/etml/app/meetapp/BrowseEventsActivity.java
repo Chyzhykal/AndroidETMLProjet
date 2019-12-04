@@ -27,16 +27,25 @@ import etml.app.meetapp.Entities.EventEntity;
 import etml.app.meetapp.Repositories.EventRepository;
 import etml.app.meetapp.database.ConnectMySQL;
 
+/**
+ * Browse events view
+ */
 public class BrowseEventsActivity extends AppCompatActivity {
     LinearLayout view;
     Button add;
 
+    /**
+     * Fires when created
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse_events);
         view = findViewById(R.id.scrollviewLayout);
         add = findViewById(R.id.button7);
+
+        // Displays events when + button clicked
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,8 +60,12 @@ public class BrowseEventsActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Displays a lsit of event entitiesf
+     * @param events
+     */
     private void showEvents(List<EventEntity> events){
-        Log.d("size", String.valueOf(events.size()));
+        // For each event, display it
         for (int i = 0; i < events.size(); ++i){
             Log.d("ok", "event sent");
             EventEntity currentEvent = events.get(i);
@@ -64,6 +77,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
 
             params.setMargins(0, 0, 0, 10);
 
+            // Creating the necessary views required for the event to be displayed
             ConstraintLayout frame = new ConstraintLayout(this);
             frame.setBackgroundColor(Color.rgb(86, 133, 117));
             frame.setLayoutParams(params);
