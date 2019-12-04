@@ -15,6 +15,11 @@ import java.sql.Date;
 
 import etml.app.meetapp.Entities.UserEntity;
 import etml.app.meetapp.Repositories.UserRepository;
+import etml.app.meetapp.database.ConnectMySQL;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.os.StrictMode;
+
 
 /**
  * Register view
@@ -74,13 +79,15 @@ public class RegisterActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 newUser.setName(username);
-                newUser.setId(1);
                 newUser.setJoinDate(new java.sql.Date(System.currentTimeMillis()));
                 newUser.setKudos(1);
                 newUser.setPhoneNumber(phoneNumber);
-                newUser.setPhoto(null);
-                newUser.setPhotoObject(null);
+                newUser.setPhoto("ooleg");
+                newUser.setPwd(password);
 
+                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+                ConnectMySQL.getInstance().connect();
                 UserRepository repository = new UserRepository();
                 repository.add(newUser);
             }
