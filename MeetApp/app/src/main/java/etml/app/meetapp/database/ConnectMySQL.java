@@ -1,30 +1,50 @@
+/**
+ * ETML
+ * Author : Chyzhyk Aleh
+ * Date : 20.11.2019
+ * Description : Class used to connect to the database
+ */
 package etml.app.meetapp.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.Statement;
-import etml.app.meetapp.R;
-import android.content.res.Resources;
 
+/**
+ * Singleton connects to MySQL database using sql.Connection Library
+ */
 public class ConnectMySQL {
-    private static final ConnectMySQL ourInstance = new ConnectMySQL();
 
+    // Constant Instance of a class
+    private static final ConnectMySQL ourInstance = new ConnectMySQL();
+    // Connection object
+    private Connection connection;
+
+    /**
+     * Singleton part
+     * @return instance of this class
+     */
     public static ConnectMySQL getInstance() {
         return ourInstance;
     }
 
+    /**
+     * Private class constructor
+     */
     private ConnectMySQL() {
     }
 
+    /**
+     * Connection getter
+     * @return Connection instance
+     */
     public Connection getConnection() {
-
         return connection;
     }
 
-    private Connection connection;
-
+    /**
+     * Makes an attempt to connect to the database
+     * @return Exception if occured, if not then returns null
+     */
     public Exception connect() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -33,22 +53,12 @@ public class ConnectMySQL {
             System.out.println("Database connection success");
 
             String result = "Database Connection Successful\n";
-
-            //   Statement st = connection.createStatement();
-            //   ResultSet rs = st.executeQuery("select catName from t_evCategory");
-            //   ResultSetMetaData rsmd = rs.getMetaData();
-/*
-         while (rs.next()) {
-             result += rs.getString(1).toString() + "\n";
-         }
-         res = result;*/
+            return null;
         } catch (Exception e) {
             System.out.println("Database connection Problem");
             e.getMessage();
             e.printStackTrace();
-            /* res = e.toString();*/
             return e;
         }
-        return null;
     }
 }

@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
         StrictMode.setThreadPolicy(policy);
         ConnectMySQL.getInstance().connect();
         EventRepository repository = new EventRepository();
+        EventEntity entity = new EventEntity("Random");
+        entity.setId(1);
         repository.getAll();
     }
 }

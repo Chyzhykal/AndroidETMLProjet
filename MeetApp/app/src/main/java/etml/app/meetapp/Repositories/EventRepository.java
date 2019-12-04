@@ -1,13 +1,22 @@
+/**
+ * ETML
+ * Author : Chyzhyk Aleh
+ * Date : 20.11.2019
+ * Description : Repository for the entity object
+ */
 package etml.app.meetapp.Repositories;
 
 import android.database.Cursor;
+import android.util.Log;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Date;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -37,7 +46,7 @@ public class EventRepository {
             st.setBoolean(7, event.getPromoted());
             st.setBoolean(8, event.getIsPrivate());
             st.setInt(9, event.getMaxUsers());
-            st.setInt(10, event.getFkUserCreator());
+            st.setInt(10, event.getCreatorID());
             st.setInt(11, event.getCategory());
 
             boolean result = st.execute();
@@ -61,7 +70,7 @@ public class EventRepository {
             st.setBoolean(7, event.getPromoted());
             st.setBoolean(8, event.getIsPrivate());
             st.setInt(9, event.getMaxUsers());
-            st.setInt(10, event.getFkUserCreator());
+            st.setInt(10, event.getCreatorID());
             st.setInt(11, event.getCategory());
 
             boolean result = st.execute();
@@ -72,12 +81,11 @@ public class EventRepository {
         }
     }
 
-
     public boolean remove(EventEntity event) {
 
         try {
             PreparedStatement st = connection.prepareStatement("DELETE FROM t_event WHERE idEvent=?");
-            st.setInt(1, event.getCategory());
+            st.setInt(1, event.getId());
             boolean result = st.execute();
             return result;
 
@@ -87,16 +95,36 @@ public class EventRepository {
         }
     }
 
+    public EventEntity getById(int eventId) {
+        try {
 
-    public Object getById() {
-        return null;
+            PreparedStatement st = connection.prepareStatement("SELECT eveName, eveDescription, evePicture, eveStartDateTime," +
+            "eveEndDatetime, eveLocation, evePromoted, evePrivate, eveMaxUsers, fkUser, fkCategory FROM t_event WHERE idEvent=?");
+            st.setInt(1, eventId);
+
+            ResultSet result = st.executeQuery();
+            EventEntity entity = new EventEntity("");
+
+            while (result.next()) {
+                entity.setId(result.getInt(1));
+                entity.setName(result.getString(2));
+                entity.setDescription(result.getString(3));
+                entity.setPicture(result.getString(4));
+                entity.setStartDateTime(result.getDate(5));
+                entity.setEndDateTime(result.getDate(6));
+                entity.setLocation(result.getString(7));
+                entity.setPromoted(result.getBoolean(8));
+                entity.setIsPrivate(result.getBoolean(9));
+                entity.setMaxUsers(result.getInt(10));
+                entity.setCreatorID(result.getInt(11));
+                entity.setCategory(result.getInt(12));
+            }
+            return entity;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
-
-
-    public List getNewest() {
-        return null;
-    }
-
 
     public List<EventEntity> getAll() {
         try {
@@ -117,7 +145,7 @@ public class EventRepository {
                 entity.setPromoted(result.getBoolean(8));
                 entity.setIsPrivate(result.getBoolean(9));
                 entity.setMaxUsers(result.getInt(10));
-                entity.setFkUserCreator(result.getInt(11));
+                entity.setCreatorID(result.getInt(11));
                 entity.setCategory(result.getInt(12));
                 eventEntities.add(entity);
             }
@@ -129,6 +157,13 @@ public class EventRepository {
         }
     }
 
+    public List getByName() {
+        return null;
+    }
+
+    public List getNewest() {
+        return null;
+    }
 
     public List getByCategory(CategoryEntitiy category) {
         return null;
