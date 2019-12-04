@@ -140,4 +140,8 @@ public class EventEntity {
     public Image getPictureObject(){
         return pictureObject;
     }
+
+    public int getParticipantCount(){
+        return 0;
+    }
 }
