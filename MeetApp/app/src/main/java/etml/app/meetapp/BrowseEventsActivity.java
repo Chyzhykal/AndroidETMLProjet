@@ -5,6 +5,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -44,18 +45,25 @@ public class BrowseEventsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_browse_events);
         view = findViewById(R.id.scrollviewLayout);
         add = findViewById(R.id.button7);
+        Button btnProfile = findViewById(R.id.button8);
 
-        // Displays events when + button clicked
+        // Switches to the create events activity
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("ok", "events created");
-
-                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
                 StrictMode.setThreadPolicy(policy);
                 ConnectMySQL.getInstance().connect();
                 EventRepository repository = new EventRepository();
-                showEvents(repository.getAll());
+                showEvents(repository.getAll());*/
+                startActivity(new Intent(BrowseEventsActivity.this, CreateEventActivity.class));
+            }
+        });
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BrowseEventsActivity.this, ProfileActivity.class));
             }
         });
     }

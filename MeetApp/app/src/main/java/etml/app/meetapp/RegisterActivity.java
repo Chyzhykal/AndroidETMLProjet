@@ -36,6 +36,17 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         Button btnClick = findViewById(R.id.button3);
+        Button btnCancel = findViewById(R.id.button2);
+
+        /**
+         * Returns to the login activity
+         */
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         /**
          * Fires once the user clicks on register
@@ -98,6 +109,7 @@ public class RegisterActivity extends AppCompatActivity {
                 UserRepository repository = new UserRepository();
                 repository.add(newUser);
                 System.out.println("added user");
+                finish();
             }
         });
     }

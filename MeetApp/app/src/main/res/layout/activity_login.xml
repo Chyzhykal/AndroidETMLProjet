@@ -18,18 +18,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-            android:id="@+id/editText"
-            android:layout_width="288dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="61dp"
-            android:layout_marginTop="170dp"
-            android:ems="10"
-            android:hint="@string/phone_number"
-            android:inputType="phone"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
             android:id="@+id/editText2"
             android:layout_width="287dp"
             android:layout_height="44dp"
@@ -58,6 +46,18 @@
             android:layout_marginStart="100dp"
             android:layout_marginTop="444dp"
             android:text="@string/register"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="291dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

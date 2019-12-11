@@ -11,13 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".BrowseEventsActivity"></activity>
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CreateEventActivity" />
-        <activity android:name=".RegisterActivity"> <intent-filter>
+        <activity android:name=".LoginActivity"><intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>
+        <activity android:name=".CreateEventActivity" />
+        <activity android:name=".RegisterActivity"> </activity>
         <activity android:name=".MainActivity">
 
         </activity>
