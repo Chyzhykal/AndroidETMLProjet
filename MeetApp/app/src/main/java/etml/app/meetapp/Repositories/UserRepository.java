@@ -19,10 +19,17 @@ import etml.app.meetapp.Entities.UserEntity;
 import etml.app.meetapp.Enums.UserCodes;
 import etml.app.meetapp.database.ConnectMySQL;
 
+/**
+ * Class for interracting with user information in the database
+ *
+ */
 public class UserRepository {
 
     Connection connection;
 
+    /**
+     * Constructor of the cldass
+     */
     public UserRepository(){
         connection = ConnectMySQL.getInstance().getConnection();
     }
@@ -31,7 +38,7 @@ public class UserRepository {
         System.out.println("Im in REpo");
         UserEntity userEntity = new UserEntity();
         try {
-            PreparedStatement st = connection.prepareStatement("SELECT idUser FROM t_user WHERE useLogin=?");
+            PreparedStatement st = connection.prepareStatement("SELECT idUser FROM t_user WHERE useName=?");
             st.setString(1, user.getName());
             ResultSet rs = st.executeQuery();
             if(rs != null){
@@ -80,7 +87,7 @@ public class UserRepository {
     public UserEntity loginAttempt(String login, String pwd) {
         UserEntity userEntity = new UserEntity();
         try {
-            PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useLogin=?");
+            PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useName=?");
             st.setString(1, login);
             ResultSet result = st.executeQuery();
             if(result==null){
