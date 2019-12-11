@@ -73,25 +73,31 @@ public class RegisterActivity extends AppCompatActivity {
                 // Create a new user entity
                 UserEntity newUser = new UserEntity();
 
+
                 // Try catch needed to parse date
-                try {
+                /*try {
                     newUser.setBirthDate((java.sql.Date) formatter.parse(birthDate));
                 } catch (ParseException e) {
                     e.printStackTrace();
-                }
+                }*/
+                System.out.println("before user");
                 newUser.setName(username);
                 newUser.setJoinDate(new java.sql.Date(System.currentTimeMillis()));
+                newUser.setBirthDate(new java.sql.Date(11052001));
                 newUser.setKudos(1);
                 newUser.setPhoneNumber(phoneNumber);
                 newUser.setPhoto("ooleg");
                 newUser.setPwd(password);
+                System.out.println("after user");
 
                 StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
                 StrictMode.setThreadPolicy(policy);
                 ConnectMySQL.getInstance().connect();
+                System.out.println("after policy thing");
 
                 UserRepository repository = new UserRepository();
                 repository.add(newUser);
+                System.out.println("added user");
             }
         });
     }
