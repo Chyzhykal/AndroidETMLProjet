@@ -43,6 +43,7 @@ public class RegisterActivity extends AppCompatActivity {
         btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //startActivity(new Intent(MainActivity.this, Main2Activity.class));
                 // Gets the views
                 TextView usernameView = findViewById(R.id.editText8);
@@ -61,12 +62,12 @@ public class RegisterActivity extends AppCompatActivity {
                 String passwordConfirm = passwordConfirmView.getText().toString();
                 String birthDate = birthDateView.getText().toString();
                 String kudos = birthDateView.getText().toString();
-
+                System.out.println("click");
                 // Cancels the registration if the confirmed password isn't the same as the password
-                if (password != passwordConfirm) {
-                    return;
-                }
-
+//                if (password != passwordConfirm) {
+//                    return;
+//                }
+                System.out.println("click2");
                 // TODO : Increment user kudos
 
                 // Create a new user entity
@@ -88,6 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
                 StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
                 StrictMode.setThreadPolicy(policy);
                 ConnectMySQL.getInstance().connect();
+
                 UserRepository repository = new UserRepository();
                 repository.add(newUser);
             }

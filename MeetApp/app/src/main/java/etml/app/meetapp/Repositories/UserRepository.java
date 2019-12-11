@@ -28,6 +28,7 @@ public class UserRepository {
     }
 
     public UserEntity add(UserEntity user) {
+        System.out.println("Im in REpo");
         UserEntity userEntity = new UserEntity();
         try {
             PreparedStatement st = connection.prepareStatement("SELECT idUser FROM t_user WHERE useLogin=?");
@@ -57,6 +58,7 @@ public class UserRepository {
             userEntity.setUserCode(UserCodes.NOT_CREATED);
             return userEntity ;
         } catch (SQLException e) {
+            System.out.println("Im in Catch");
             e.printStackTrace();
             userEntity.setUserCode(UserCodes.SQL_ERROR);
             return userEntity ;
