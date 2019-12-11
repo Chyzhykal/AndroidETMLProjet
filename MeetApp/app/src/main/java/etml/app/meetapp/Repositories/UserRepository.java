@@ -41,8 +41,10 @@ public class UserRepository {
             PreparedStatement st = connection.prepareStatement("SELECT idUser FROM t_user WHERE useName=?");
             st.setString(1, user.getName());
             ResultSet rs = st.executeQuery();
-            if(rs != null){
+            System.out.println(rs.toString());
+            if(rs.next()){
                 userEntity.setUserCode(UserCodes.EXISTS);
+                System.out.println("Exists");
                 return userEntity ;
             }
 
@@ -59,10 +61,12 @@ public class UserRepository {
             boolean result = st.execute();
             if(result){
                 userEntity.setUserCode(UserCodes.CREATED);
+                System.out.println("NotCreated");
                 return userEntity ;
             }
 
             userEntity.setUserCode(UserCodes.NOT_CREATED);
+            System.out.println("Created");
             return userEntity ;
         } catch (SQLException e) {
             System.out.println("Im in Catch");
@@ -84,13 +88,14 @@ public class UserRepository {
         return null;
     }
 
+
     public UserEntity loginAttempt(String login, String pwd) {
         UserEntity userEntity = new UserEntity();
         try {
             PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useName=?");
             st.setString(1, login);
             ResultSet result = st.executeQuery();
-            if(result==null){
+            if(!result.next()){
                 userEntity.setUserCode(UserCodes.NOT_FOUND);
                 return userEntity ;
             }

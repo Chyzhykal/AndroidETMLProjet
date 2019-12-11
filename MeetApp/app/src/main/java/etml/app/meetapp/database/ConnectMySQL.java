@@ -6,6 +6,8 @@
  */
 package etml.app.meetapp.database;
 
+import android.os.AsyncTask;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
