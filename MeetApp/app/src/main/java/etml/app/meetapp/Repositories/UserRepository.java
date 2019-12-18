@@ -93,6 +93,7 @@ public class UserRepository {
     public UserEntity loginAttempt(String login, String pwd) {
         UserEntity userEntity = new UserEntity();
         try {
+            System.out.println("Connecting");
             PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useName=?");
             st.setString(1, login);
             ResultSet result = st.executeQuery();

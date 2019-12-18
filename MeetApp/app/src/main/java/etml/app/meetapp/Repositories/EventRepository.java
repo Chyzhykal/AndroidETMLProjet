@@ -30,6 +30,7 @@ public class EventRepository {
     Connection connection;
 
     public EventRepository(){
+        ConnectMySQL.getInstance().connect();
         connection = ConnectMySQL.getInstance().getConnection();
     }
 

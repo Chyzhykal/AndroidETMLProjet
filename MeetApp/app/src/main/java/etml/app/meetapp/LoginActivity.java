@@ -15,6 +15,7 @@ import java.text.SimpleDateFormat;
 
 import etml.app.meetapp.Entities.UserEntity;
 import etml.app.meetapp.Repositories.UserRepository;
+import etml.app.meetapp.database.ConnectMySQL;
 
 /**
  * Manages the activity_login activity
@@ -43,11 +44,15 @@ public class LoginActivity extends AppCompatActivity {
                 String usernameText = usernameView.getText().toString();
                 String passwordText = passwordView.getText().toString();
 
+                /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+                ConnectMySQL.getInstance().connect();
                 UserRepository repository = new UserRepository();
-                /*UserEntity user = repository.loginAttempt(usernameText, passwordText);
+                UserEntity user = repository.loginAttempt(usernameText, passwordText);
                 if (user.getUserCode() == UserCodes.CONNECTED){
                     Session.getInstance().addPair("connected", true);
                     Session.getInstance().addPair("username", usernameText);
+                    Session.getInstance().addPair("userId", user.getId());
                     startActivity(new Intent(LoginActivity.this, BrowseEventsActivity.class));
                 }*/
 

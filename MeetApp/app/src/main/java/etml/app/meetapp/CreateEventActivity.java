@@ -2,7 +2,7 @@ package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -64,12 +64,35 @@ public class CreateEventActivity extends AppCompatActivity {
                 newEvent.setPicture("ooleg");
                 newEvent.setPromoted(promotedView.isChecked());
                 newEvent.setIsPrivate(privateView.isChecked());
+                //newEvent.setCreatorID((int)Session.getInstance().getValue("userId"));
+                newEvent.setCreatorID(4);
 
-                EventRepository repo = new EventRepository();
-                repo.add(newEvent);
-
-                finish();
+                AsyncCreate connect = new AsyncCreate();
+                EventEntity params[] = {newEvent};
+                connect.execute(params);
             }
         });
     }
+
+    public void setCreatedActivity(boolean createdEvent){
+        finish();
+    }
+
+    /**
+     * Asynchroneously creates the event
+     */
+    private class AsyncCreate extends AsyncTask<EventEntity, Void, Void> {
+        protected Void doInBackground(EventEntity... params) {
+            EventEntity toCreate = params[0];
+            EventRepository repository = new EventRepository();
+            setCreatedActivity(repository.add(toCreate));
+            return null;
+        }
+
+        protected void onPostExecute(Long result) {
+
+        }
+    }
 }
+
+

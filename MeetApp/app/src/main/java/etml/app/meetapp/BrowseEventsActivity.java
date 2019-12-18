@@ -4,29 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.StrictMode;
-import android.util.Log;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
-import android.widget.TextClock;
 import android.widget.TextView;
 import android.view.View;
 
-import org.w3c.dom.Text;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import etml.app.meetapp.Entities.EventEntity;
 import etml.app.meetapp.Repositories.EventRepository;
-import etml.app.meetapp.database.ConnectMySQL;
 
 /**
  * Browse events view
@@ -47,6 +37,9 @@ public class BrowseEventsActivity extends AppCompatActivity {
         add = findViewById(R.id.button7);
         Button btnProfile = findViewById(R.id.button8);
 
+        AsyncGetAll connect = new AsyncGetAll();
+        connect.execute();
+
         // Switches to the create events activity
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,8 +47,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
                 /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
                 StrictMode.setThreadPolicy(policy);
                 ConnectMySQL.getInstance().connect();
-                EventRepository repository = new EventRepository();
-                showEvents(repository.getAll());*/
+                EventRepository repository = new EventRepository();*/
                 startActivity(new Intent(BrowseEventsActivity.this, CreateEventActivity.class));
             }
         });
@@ -73,9 +65,10 @@ public class BrowseEventsActivity extends AppCompatActivity {
      * @param events
      */
     private void showEvents(List<EventEntity> events){
+        System.out.println("Beofre for loop");
         // For each event, display it
         for (int i = 0; i < events.size(); ++i){
-            Log.d("ok", "event sent");
+            System.out.println("in for loop");
             EventEntity currentEvent = events.get(i);
 
             ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(
@@ -149,6 +142,21 @@ public class BrowseEventsActivity extends AppCompatActivity {
             participantsConstraints.applyTo(frame);
             frame.addView(eventName);*/
             view.addView(frame);
+        }
+    }
+
+    private class AsyncGetAll extends AsyncTask<Void, Void, Void> {
+        List<EventEntity> retrievedEvents;
+        protected Void doInBackground(Void... params) {
+            EventRepository repository = new EventRepository();
+            retrievedEvents = repository.getAll();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            System.out.println("Beofre showing");
+            showEvents(retrievedEvents);
         }
     }
 }
