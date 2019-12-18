@@ -31,6 +31,7 @@ public class UserRepository {
      * Constructor of the cldass
      */
     public UserRepository(){
+        ConnectMySQL.getInstance().connect();
         connection = ConnectMySQL.getInstance().getConnection();
     }
 
@@ -97,43 +98,30 @@ public class UserRepository {
             PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useName=?");
             st.setString(1, login);
             ResultSet result = st.executeQuery();
-            if(!result.next()){
-                userEntity.setUserCode(UserCodes.NOT_FOUND);
-                return userEntity ;
-            }
-            while (result.next()) {
-                if(pwd==result.getString("usePwd")){
+            while(result.next()){
+                System.out.println("line 106");
+                System.out.println(result.getString("usePwd"));
+                System.out.println(pwd);
+                if(pwd.equals(result.getString("usePwd")))
+                {
                     userEntity.setId(result.getInt("idUser"));
                     userEntity.setUserCode(UserCodes.CONNECTED);
+                    System.out.println("line 112");
                     return userEntity ;
                 }
                 else{
+                    System.out.println("line 114");
                     userEntity.setUserCode(UserCodes.WRONG_PWD);
-                    return userEntity ;
+                    System.out.println(userEntity.getUserCode());
+                    return userEntity;
                 }
             }
-            st = connection.prepareStatement("SELECT useName, usePhoneNumber, usePwd, usePhoto," +
-                    "useBirthDate, useJoinDate, useKudos FROM t_user WHERE idUser=?");
-
-            EventEntity entity = new EventEntity("");
-
-            while (result.next()) {
-                entity.setId(result.getInt(1));
-                entity.setName(result.getString(2));
-                entity.setDescription(result.getString(3));
-                entity.setPicture(result.getString(4));
-                entity.setStartDateTime(result.getDate(5));
-                entity.setEndDateTime(result.getDate(6));
-                entity.setLocation(result.getString(7));
-                entity.setPromoted(result.getBoolean(8));
-                entity.setIsPrivate(result.getBoolean(9));
-                entity.setMaxUsers(result.getInt(10));
-                entity.setCreatorID(result.getInt(11));
-                entity.setCategory(result.getInt(12));
-            }
-            return null;
+            userEntity.setUserCode(UserCodes.NOT_FOUND);
+            System.out.println("line 118");
+            return  userEntity;
         } catch (SQLException e) {
             e.printStackTrace();
+            System.out.println("line 122");
             return null;
         }
     }

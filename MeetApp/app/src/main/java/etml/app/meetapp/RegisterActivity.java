@@ -2,6 +2,7 @@ package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
@@ -101,16 +102,33 @@ public class RegisterActivity extends AppCompatActivity {
                 newUser.setPwd(password);
                 System.out.println("after user");
 
-                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-                StrictMode.setThreadPolicy(policy);
-                ConnectMySQL.getInstance().connect();
-                System.out.println("after policy thing");
+                AsyncCreate create = new AsyncCreate();
+                UserEntity params[] = {newUser};
+                create.execute(params);
 
-                UserRepository repository = new UserRepository();
-                repository.add(newUser);
-                System.out.println("added user");
-                finish();
+
             }
         });
+    }
+    private class AsyncCreate extends AsyncTask<UserEntity, Void, Void> {
+
+        private UserEntity createdUser;
+
+        protected Void doInBackground(UserEntity... params) {
+            UserRepository  repository =  new UserRepository();
+            createdUser =  repository.add(params[0]);
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            //do stuff
+            setRegisterResult(createdUser);
+        }
+    }
+
+    public void setRegisterResult(UserEntity result){
+        System.out.println("added user");
+        finish();
     }
 }

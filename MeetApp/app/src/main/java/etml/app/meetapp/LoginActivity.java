@@ -3,12 +3,15 @@ package etml.app.meetapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import etml.app.meetapp.Controllers.LoginController;
 import etml.app.meetapp.Enums.UserCodes;
 
 import java.text.SimpleDateFormat;
@@ -44,22 +47,11 @@ public class LoginActivity extends AppCompatActivity {
                 String usernameText = usernameView.getText().toString();
                 String passwordText = passwordView.getText().toString();
 
-                /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-                StrictMode.setThreadPolicy(policy);
-                ConnectMySQL.getInstance().connect();
-                UserRepository repository = new UserRepository();
-                UserEntity user = repository.loginAttempt(usernameText, passwordText);
-                if (user.getUserCode() == UserCodes.CONNECTED){
-                    Session.getInstance().addPair("connected", true);
-                    Session.getInstance().addPair("username", usernameText);
-                    Session.getInstance().addPair("userId", user.getId());
-                    startActivity(new Intent(LoginActivity.this, BrowseEventsActivity.class));
-                }*/
-
-                startActivity(new Intent(LoginActivity.this, BrowseEventsActivity.class));
+                AsyncConnect connect = new AsyncConnect();
+                String params[] = {usernameText, passwordText};
+                connect.execute(params);
             }
         });
-
         /**
          * Register button
          */
@@ -69,5 +61,36 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
+    }
+
+    private class AsyncConnect extends AsyncTask<String, Void, Void> {
+        private UserEntity connectedUser;
+
+        protected Void doInBackground(String... params) {
+            String login = params[0];
+            String pwd = params[1];
+            UserRepository  repository =  new UserRepository();
+            connectedUser =  repository.loginAttempt(login, pwd);
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            //do stuff
+            setLoginResult(connectedUser);
+        }
+    }
+
+    public void setLoginResult(UserEntity user){
+        if (user.getUserCode() == UserCodes.CONNECTED){
+            Session.getInstance().addPair("connected", true);
+            Session.getInstance().addPair("username", "aleg");
+            System.out.println("connected");
+            startActivity(new Intent(LoginActivity.this, BrowseEventsActivity.class));
+
+        }
+        else{
+            System.out.println("not connected");
+        }
     }
 }
