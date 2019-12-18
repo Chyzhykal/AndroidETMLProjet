@@ -1,3 +1,11 @@
+/**
+ * ETML
+ * Author : Boris Hutzli and Aleh Chyzhk
+ * Date : 18.12.2019
+ * Description : View for register form
+ */
+
+
 package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
         /**
-         * Fires once the user clicks on register
+         * Fires once user clicks on register
          */
         btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +118,10 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
+
+    /**
+     * Adds the user to the database
+     */
     private class AsyncCreate extends AsyncTask<UserEntity, Void, Void> {
 
         private UserEntity createdUser;

@@ -1,3 +1,10 @@
+/**
+ * ETML
+ * Author : Boris Hutzli and Aleh Chyzhk
+ * Date : 18.12.2019
+ * Description : View for login form
+ */
+
 package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +18,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import etml.app.meetapp.Controllers.LoginController;
 import etml.app.meetapp.Enums.UserCodes;
 
 import java.text.SimpleDateFormat;
@@ -63,6 +69,9 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Checks wether the given user exists in the database
+     */
     private class AsyncConnect extends AsyncTask<String, Void, Void> {
         private UserEntity connectedUser;
 
@@ -81,6 +90,10 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Adds info to the session and switches activities
+     * @param user
+     */
     public void setLoginResult(UserEntity user){
         if (user.getUserCode() == UserCodes.CONNECTED){
             Session.getInstance().addPair("connected", true);

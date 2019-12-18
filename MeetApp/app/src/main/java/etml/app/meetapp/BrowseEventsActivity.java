@@ -1,3 +1,10 @@
+/**
+ * ETML
+ * Author : Boris Hutzli
+ * Date : 18.12.2019
+ * Description : Displays events available for the user
+ */
+
 package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +19,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.view.View;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.sql.Date;
+
 
 import java.util.List;
 
@@ -44,10 +56,6 @@ public class BrowseEventsActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-                StrictMode.setThreadPolicy(policy);
-                ConnectMySQL.getInstance().connect();
-                EventRepository repository = new EventRepository();*/
                 startActivity(new Intent(BrowseEventsActivity.this, CreateEventActivity.class));
             }
         });
@@ -61,14 +69,12 @@ public class BrowseEventsActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays a lsit of event entitiesf
+     * Displays a list of event entities
      * @param events
      */
     private void showEvents(List<EventEntity> events){
-        System.out.println("Beofre for loop");
         // For each event, display it
         for (int i = 0; i < events.size(); ++i){
-            System.out.println("in for loop");
             EventEntity currentEvent = events.get(i);
 
             ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(
@@ -83,11 +89,6 @@ public class BrowseEventsActivity extends AppCompatActivity {
             frame.setBackgroundColor(Color.rgb(86, 133, 117));
             frame.setLayoutParams(params);
             frame.setId(View.generateViewId());
-            //addView(frame, currentEvent.getName(), 24, 0, 0);
-            //addView(frame, currentEvent.getStartDateTime(), 16, 0, 50);
-            //addView(frame, currentEvent.getEndDateTime(), 16, 48, 32, i);
-            //addView(frame, currentEvent.getLocation(), 16, 16, 48, i);
-            //addView(frame, currentEvent.getParticipantCount() + "/" + currentEvent.getMaxUsers(), 16, 16, 64,i);
 
             TextView eventName = new TextView(this);
             eventName.setText(events.get(i).getName());
@@ -116,35 +117,49 @@ public class BrowseEventsActivity extends AppCompatActivity {
             startDateTimeConstraints.connect(startDateTime.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 0);
             startDateTimeConstraints.applyTo(frame);
 
-            /*TextView endDateTime = new TextView(this);
-            endDateTime.setText(currentEvent.getEndDateTime());
+            TextView endDateTime = new TextView(this);
+            endDateTime.setText(currentEvent.getEndDateTime().toString());
             endDateTime.setTextSize(16);
+            endDateTime.setId(View.generateViewId());
+            frame.addView(endDateTime);
 
             TextView location = new TextView(this);
             location.setText(currentEvent.getLocation());
             location.setTextSize(16);
+            location.setId(View.generateViewId());
+            frame.addView(location);
 
             TextView participants = new TextView(this);
             participants.setText(currentEvent.getParticipantCount() + "/" + currentEvent.getMaxUsers());
             participants.setTextSize(16);
+            participants.setId(View.generateViewId());
+            frame.addView(participants);
 
             ConstraintSet endDateTimeConstraints = new ConstraintSet();
             endDateTimeConstraints.clone(frame);
+            endDateTimeConstraints.connect(endDateTime.getId(), ConstraintSet.TOP, frame.getId(), ConstraintSet.TOP, 50);
+            endDateTimeConstraints.connect(endDateTime.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 50);
 
             ConstraintSet locationConstraint = new ConstraintSet();
             locationConstraint.clone(frame);
+            locationConstraint.connect(location.getId(), ConstraintSet.TOP, frame.getId(), ConstraintSet.TOP, 50);
+            locationConstraint.connect(location.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 150);
 
             ConstraintSet participantsConstraints =new ConstraintSet();
             participantsConstraints.clone(frame);
+            participantsConstraints.connect(participants.getId(), ConstraintSet.TOP, frame.getId(), ConstraintSet.TOP, 50);
+            participantsConstraints.connect(participants.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 250);
 
             endDateTimeConstraints.applyTo(frame);
             locationConstraint.applyTo(frame);
             participantsConstraints.applyTo(frame);
-            frame.addView(eventName);*/
             view.addView(frame);
         }
     }
 
+    /**
+     * Gets all events asynchroneously
+     */
     private class AsyncGetAll extends AsyncTask<Void, Void, Void> {
         List<EventEntity> retrievedEvents;
         protected Void doInBackground(Void... params) {

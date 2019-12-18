@@ -1,3 +1,11 @@
+/**
+ * ETML
+ * Author : Boris Hutzli and Aleh Chyzhk
+ * Date : 18.12.2019
+ * Description : Displays the connected user's info
+ */
+
+
 package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;

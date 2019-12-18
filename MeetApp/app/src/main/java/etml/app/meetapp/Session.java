@@ -1,3 +1,11 @@
+/**
+ * ETML
+ * Author : Boris Hutzli
+ * Date : 18.12.2019
+ * Description : Stores info that needs to be shared throughout the application
+ */
+
+
 package etml.app.meetapp;
 import java.util.Dictionary;
 import java.util.Enumeration;

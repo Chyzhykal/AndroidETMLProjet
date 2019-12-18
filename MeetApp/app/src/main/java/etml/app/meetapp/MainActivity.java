@@ -1,3 +1,11 @@
+/**
+ * ETML
+ * Author : Aleh Chyzhk
+ * Date : 18.12.2019
+ * Description : Testing
+ */
+
+
 package etml.app.meetapp;
 
 import android.os.AsyncTask;

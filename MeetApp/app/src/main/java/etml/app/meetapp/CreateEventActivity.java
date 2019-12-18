@@ -1,3 +1,10 @@
+/**
+ * ETML
+ * Author : Boris Hutzli
+ * Date : 18.12.2019
+ * Description : View for event creation form
+ */
+
 package etml.app.meetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
