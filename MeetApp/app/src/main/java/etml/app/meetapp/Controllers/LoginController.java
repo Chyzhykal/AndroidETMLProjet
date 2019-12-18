@@ -1,48 +1,50 @@
 package etml.app.meetapp.Controllers;
 
+import android.os.AsyncTask;
+
+import java.net.UnknownServiceException;
+
+import etml.app.meetapp.Entities.EventEntity;
 import etml.app.meetapp.Entities.UserEntity;
+import etml.app.meetapp.Repositories.EventRepository;
 import etml.app.meetapp.Repositories.UserRepository;
+import etml.app.meetapp.database.ConnectMySQL;
 
-public class LoginController implements Runnable{
-    public static Thread connectThread = null;
-    @Override
-    public void run() {
+public class LoginController{
 
+
+    public void connect(String login, String pwd){
+        AsyncConnect connect = new AsyncConnect();
+        String params[] = {login, pwd};
+        connect.doInBackground(params);
     }
 
-    public void connect(String name, String pwd){
 
-        connectThread = new Thread() {
-            public void run() {
-                Communication communicationObject = new Communication();
-                communicationObject.start();
-            }
-        };
-       /* communicationThread = new Thread() {
-            public void run() {
-                Communication communicationObject = new Communication();
-                communicationObject.start();
-            }
-        };
+    private class AsyncConnect extends AsyncTask<String, Void, Void> {
 
-        communicationThread.start();
+        private  UserEntity entity;
+
+        protected Void doInBackground(String... params) {
+            String login = params[0];
+            String pwd = params[1];
+            UserRepository  repository =  new UserRepository();
+            entity =  repository.loginAttempt(login, pwd);
+            return null;
+        }
+
+        protected void onPostExecute(Long result) {
+
+        }
     }
 
-    public static Thread getCommunicationThread() {
-        if (communicationThread == null) { // init your Thread
-        } return communicationThread;*/
+    private class AsyncCreate extends AsyncTask<Void, Void, Void> {
+        protected Void doInBackground(Void... params) {
+            //do stuff
+            return null;
+        }
 
-        final String useName = name;
-        final String usePwd = pwd;
+        protected void onPostExecute(Long result) {
 
-        Thread thread =  new Thread(new Runnable() {
-            public void run() {
-                // a potentially time consuming task
-                UserRepository repository= new UserRepository();
-                final UserEntity userEntity = repository.loginAttempt(useName,usePwd);
-            }
-        }).start();
-
-
+        }
     }
 }

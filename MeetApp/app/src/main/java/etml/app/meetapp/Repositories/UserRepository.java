@@ -42,6 +42,7 @@ public class UserRepository {
             st.setString(1, user.getName());
             ResultSet rs = st.executeQuery();
             System.out.println(rs.toString());
+
             if(rs.next()){
                 userEntity.setUserCode(UserCodes.EXISTS);
                 System.out.println("Exists");

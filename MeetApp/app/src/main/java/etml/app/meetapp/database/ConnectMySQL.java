@@ -49,12 +49,14 @@ public class ConnectMySQL {
      */
     public Exception connect() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://10.228.156.173/db_meetapp", "Buris", "root");
+            if(connection==null){
+                Class.forName("com.mysql.jdbc.Driver");
+                connection = DriverManager.getConnection("jdbc:mysql://10.228.156.173/db_meetapp", "Buris", "root");
 
-            System.out.println("Database connection success");
+                System.out.println("Database connection success");
 
-            String result = "Database Connection Successful\n";
+                String result = "Database Connection Successful\n";
+            }
             return null;
         } catch (Exception e) {
             System.out.println("Database connection Problem");
