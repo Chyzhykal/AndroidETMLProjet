@@ -28,7 +28,7 @@ public class UserRepository {
     Connection connection;
 
     /**
-     * Constructor of the cldass
+     * Constructor of the class
      */
     public UserRepository(){
         ConnectMySQL.getInstance().connect();
@@ -86,8 +86,34 @@ public class UserRepository {
 
     }
 
-    public Object getById() {
-        return null;
+    public UserEntity getById(int id) {
+        UserEntity userEntity = new UserEntity();
+
+        try {
+            PreparedStatement st = connection.prepareStatement("SELECT * FROM t_user WHERE idUser=?");
+            st.setInt(1, id);
+            ResultSet rs = st.executeQuery();
+            System.out.println(rs.toString());
+
+            if(rs.next()){
+                userEntity.setId(id);
+                userEntity.setBirthDate(rs.getDate("useBirthDate"));
+                userEntity.setJoinDate(rs.getDate("useJoinDate"));
+                userEntity.setKudos(rs.getInt("useKudos"));
+                userEntity.setName(rs.getString("useName"));
+                userEntity.setPhoneNumber(rs.getString("usePhoneNumber"));
+                userEntity.setPhoto(rs.getNString("usePhoto"));
+                userEntity.setUserCode(UserCodes.EXISTS);
+                return userEntity ;
+            }
+            userEntity.setUserCode(UserCodes.NOT_FOUND);
+            return userEntity;
+        } catch (SQLException e) {
+            System.out.println("Im in Catch");
+            e.printStackTrace();
+            userEntity.setUserCode(UserCodes.SQL_ERROR);
+            return userEntity ;
+        }
     }
 
 

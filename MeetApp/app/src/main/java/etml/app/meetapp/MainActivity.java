@@ -18,12 +18,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.Statement;
-
 import etml.app.meetapp.Entities.EventEntity;
 import etml.app.meetapp.Repositories.EventRepository;
 import etml.app.meetapp.database.ConnectMySQL;

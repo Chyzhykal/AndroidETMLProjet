@@ -1,0 +1,318 @@
+[Thu Dec 14 13:36:00.043972 2017] [ssl:warn] [pid 11696:tid 324] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Dec 14 13:36:00.043972 2017] [ssl:warn] [pid 11696:tid 324] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 13:36:00.355972 2017] [ssl:warn] [pid 11696:tid 324] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 14 13:36:00.355972 2017] [ssl:warn] [pid 11696:tid 324] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Dec 14 13:36:00.355972 2017] [ssl:warn] [pid 11696:tid 324] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 13:36:00.418372 2017] [mpm_winnt:notice] [pid 11696:tid 324] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Thu Dec 14 13:36:00.418372 2017] [mpm_winnt:notice] [pid 11696:tid 324] AH00456: Server built: Jan 28 2016 09:58:25
+[Thu Dec 14 13:36:00.418372 2017] [core:notice] [pid 11696:tid 324] AH00094: Command line: 'D:\\Applications\\Applications-publics\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/Applications/Applications-publics/UwAmp/bin/apache -f D:\\Applications\\Applications-publics\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Thu Dec 14 13:36:00.433972 2017] [mpm_winnt:notice] [pid 11696:tid 324] AH00418: Parent: Created child process 4420
+[Thu Dec 14 13:36:01.229572 2017] [ssl:warn] [pid 4420:tid 336] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Dec 14 13:36:01.229572 2017] [ssl:warn] [pid 4420:tid 336] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 13:36:01.479172 2017] [ssl:warn] [pid 4420:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 14 13:36:01.479172 2017] [ssl:warn] [pid 4420:tid 336] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Dec 14 13:36:01.479172 2017] [ssl:warn] [pid 4420:tid 336] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 13:36:01.494772 2017] [mpm_winnt:notice] [pid 4420:tid 336] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 14 13:48:18.001187 2017] [mpm_winnt:crit] [pid 4420:tid 336] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Dec 14 13:48:18.001187 2017] [mpm_winnt:warn] [pid 4420:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Dec 14 13:48:18.001187 2017] [mpm_winnt:warn] [pid 4420:tid 484] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Dec 14 13:48:18.001187 2017] [mpm_winnt:warn] [pid 4420:tid 1104] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Dec 14 13:48:18.001187 2017] [mpm_winnt:warn] [pid 4420:tid 492] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Dec 15 08:55:26.586682 2017] [ssl:warn] [pid 1072:tid 324] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 15 08:55:26.586682 2017] [ssl:warn] [pid 1072:tid 324] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 08:55:26.617882 2017] [core:warn] [pid 1072:tid 324] AH00098: pid file D:/Applications/Applications-publics/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 15 08:55:26.789481 2017] [ssl:warn] [pid 1072:tid 324] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 15 08:55:26.789481 2017] [ssl:warn] [pid 1072:tid 324] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 15 08:55:26.789481 2017] [ssl:warn] [pid 1072:tid 324] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 08:55:27.148279 2017] [mpm_winnt:notice] [pid 1072:tid 324] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Fri Dec 15 08:55:27.148279 2017] [mpm_winnt:notice] [pid 1072:tid 324] AH00456: Server built: Jan 28 2016 09:58:25
+[Fri Dec 15 08:55:27.148279 2017] [core:notice] [pid 1072:tid 324] AH00094: Command line: 'D:\\Applications\\Applications-publics\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/Applications/Applications-publics/UwAmp/bin/apache -f D:\\Applications\\Applications-publics\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Fri Dec 15 08:55:27.163878 2017] [mpm_winnt:notice] [pid 1072:tid 324] AH00418: Parent: Created child process 13172
+[Fri Dec 15 08:55:27.820074 2017] [ssl:warn] [pid 13172:tid 336] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 15 08:55:27.820074 2017] [ssl:warn] [pid 13172:tid 336] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 08:55:28.147672 2017] [ssl:warn] [pid 13172:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 15 08:55:28.147672 2017] [ssl:warn] [pid 13172:tid 336] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 15 08:55:28.147672 2017] [ssl:warn] [pid 13172:tid 336] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 08:55:28.194472 2017] [mpm_winnt:notice] [pid 13172:tid 336] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:10:33.004392 2019] [ssl:warn] [pid 6432:tid 352] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:33.004392 2019] [ssl:warn] [pid 6432:tid 352] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:33.229392 2019] [core:warn] [pid 6432:tid 352] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:10:33.420392 2019] [ssl:warn] [pid 6432:tid 352] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:10:33.421392 2019] [ssl:warn] [pid 6432:tid 352] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:33.421392 2019] [ssl:warn] [pid 6432:tid 352] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:33.958392 2019] [mpm_winnt:notice] [pid 6432:tid 352] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Nov 06 15:10:33.958392 2019] [mpm_winnt:notice] [pid 6432:tid 352] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:10:33.958392 2019] [core:notice] [pid 6432:tid 352] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:10:33.973392 2019] [mpm_winnt:notice] [pid 6432:tid 352] AH00418: Parent: Created child process 8468
+[Wed Nov 06 15:10:37.838392 2019] [ssl:warn] [pid 10264:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:37.839392 2019] [ssl:warn] [pid 10264:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:38.076392 2019] [core:warn] [pid 10264:tid 348] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:10:38.240392 2019] [ssl:warn] [pid 10264:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:10:38.241392 2019] [ssl:warn] [pid 10264:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:38.241392 2019] [ssl:warn] [pid 10264:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:38.757392 2019] [mpm_winnt:notice] [pid 10264:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:10:38.757392 2019] [mpm_winnt:notice] [pid 10264:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:10:38.757392 2019] [core:notice] [pid 10264:tid 348] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:10:38.769392 2019] [mpm_winnt:notice] [pid 10264:tid 348] AH00418: Parent: Created child process 8068
+[Wed Nov 06 15:10:42.265392 2019] [ssl:warn] [pid 8092:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:42.265392 2019] [ssl:warn] [pid 8092:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:42.509392 2019] [core:warn] [pid 8092:tid 348] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:10:42.673392 2019] [ssl:warn] [pid 8092:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:10:42.674392 2019] [ssl:warn] [pid 8092:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:42.674392 2019] [ssl:warn] [pid 8092:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:42.912392 2019] [mpm_winnt:notice] [pid 8092:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:10:42.912392 2019] [mpm_winnt:notice] [pid 8092:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:10:42.912392 2019] [core:notice] [pid 8092:tid 348] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:10:42.924392 2019] [mpm_winnt:notice] [pid 8092:tid 348] AH00418: Parent: Created child process 7220
+[Wed Nov 06 15:10:44.169392 2019] [ssl:warn] [pid 7220:tid 360] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:44.170392 2019] [ssl:warn] [pid 7220:tid 360] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:44.564392 2019] [ssl:warn] [pid 7220:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:10:44.564392 2019] [ssl:warn] [pid 7220:tid 360] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:10:44.564392 2019] [ssl:warn] [pid 7220:tid 360] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:10:44.808392 2019] [mpm_winnt:notice] [pid 7220:tid 360] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:13:22.815574 2019] [mpm_winnt:crit] [pid 7220:tid 360] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Nov 06 15:13:25.123171 2019] [ssl:warn] [pid 10920:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:13:25.124171 2019] [ssl:warn] [pid 10920:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:13:25.183171 2019] [core:warn] [pid 10920:tid 348] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:13:25.348171 2019] [ssl:warn] [pid 10920:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:13:25.349171 2019] [ssl:warn] [pid 10920:tid 348] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:13:25.349171 2019] [ssl:warn] [pid 10920:tid 348] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:13:25.375171 2019] [mpm_winnt:notice] [pid 10920:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:13:25.376171 2019] [mpm_winnt:notice] [pid 10920:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:13:25.376171 2019] [core:notice] [pid 10920:tid 348] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:13:25.379171 2019] [mpm_winnt:notice] [pid 10920:tid 348] AH00418: Parent: Created child process 4200
+[Wed Nov 06 15:13:26.051171 2019] [ssl:warn] [pid 4200:tid 360] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:13:26.052171 2019] [ssl:warn] [pid 4200:tid 360] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:13:26.256171 2019] [ssl:warn] [pid 4200:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:13:26.257171 2019] [ssl:warn] [pid 4200:tid 360] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Nov 06 15:13:26.257171 2019] [ssl:warn] [pid 4200:tid 360] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 15:13:26.290171 2019] [mpm_winnt:notice] [pid 4200:tid 360] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:13:37.523368 2019] [mpm_winnt:crit] [pid 4200:tid 360] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:13:40.197957 2019] [core:warn] [pid 8260:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:13:40.356957 2019] [ssl:warn] [pid 8260:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:13:40.384957 2019] [mpm_winnt:notice] [pid 8260:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:13:40.384957 2019] [mpm_winnt:notice] [pid 8260:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:13:40.384957 2019] [core:notice] [pid 8260:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:13:40.387957 2019] [mpm_winnt:notice] [pid 8260:tid 336] AH00418: Parent: Created child process 7612
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:13:41.187557 2019] [ssl:warn] [pid 7612:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:13:41.216557 2019] [mpm_winnt:notice] [pid 7612:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:15:30.596305 2019] [mpm_winnt:crit] [pid 7612:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:15:36.352069 2019] [core:warn] [pid 10944:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:15:36.507069 2019] [ssl:warn] [pid 10944:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:15:36.532069 2019] [mpm_winnt:notice] [pid 10944:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:15:36.533069 2019] [mpm_winnt:notice] [pid 10944:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:15:36.533069 2019] [core:notice] [pid 10944:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:15:36.536069 2019] [mpm_winnt:notice] [pid 10944:tid 336] AH00418: Parent: Created child process 2584
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:15:37.313069 2019] [ssl:warn] [pid 2584:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:15:37.341069 2019] [mpm_winnt:notice] [pid 2584:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:17:07.537394 2019] [mpm_winnt:crit] [pid 2584:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:17:10.700786 2019] [core:warn] [pid 11072:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:17:10.856786 2019] [ssl:warn] [pid 11072:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:17:10.882786 2019] [mpm_winnt:notice] [pid 11072:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:17:10.882786 2019] [mpm_winnt:notice] [pid 11072:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:17:10.883786 2019] [core:notice] [pid 11072:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:17:10.885786 2019] [mpm_winnt:notice] [pid 11072:tid 336] AH00418: Parent: Created child process 8640
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:17:11.683786 2019] [ssl:warn] [pid 8640:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:17:11.708786 2019] [mpm_winnt:notice] [pid 8640:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:17:51.696373 2019] [mpm_winnt:crit] [pid 8640:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:17:54.361772 2019] [core:warn] [pid 1764:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:17:54.523772 2019] [ssl:warn] [pid 1764:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:17:54.550772 2019] [mpm_winnt:notice] [pid 1764:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:17:54.550772 2019] [mpm_winnt:notice] [pid 1764:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:17:54.550772 2019] [core:notice] [pid 1764:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:17:54.554772 2019] [mpm_winnt:notice] [pid 1764:tid 336] AH00418: Parent: Created child process 10904
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:17:55.486361 2019] [ssl:warn] [pid 10904:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:17:55.517561 2019] [mpm_winnt:notice] [pid 10904:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:19:31.539718 2019] [authz_core:error] [pid 10904:tid 1116] [client 10.228.156.151:57418] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/
+[Wed Nov 06 15:19:41.809504 2019] [authz_core:error] [pid 10904:tid 1116] [client 10.228.156.151:57419] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/
+[Wed Nov 06 15:24:37.883260 2019] [authz_core:error] [pid 10904:tid 1132] [client 10.228.156.151:50475] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/, referer: http://10.228.156.173/
+[Wed Nov 06 15:26:25.624553 2019] [mpm_winnt:crit] [pid 10904:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Nov 06 15:26:25.624553 2019] [mpm_winnt:warn] [pid 10904:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:26:30.556553 2019] [core:warn] [pid 10844:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:26:30.715553 2019] [ssl:warn] [pid 10844:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:26:30.742553 2019] [mpm_winnt:notice] [pid 10844:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:26:30.742553 2019] [mpm_winnt:notice] [pid 10844:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:26:30.742553 2019] [core:notice] [pid 10844:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:26:30.745553 2019] [mpm_winnt:notice] [pid 10844:tid 336] AH00418: Parent: Created child process 9076
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:26:31.548553 2019] [ssl:warn] [pid 9076:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:26:31.575553 2019] [mpm_winnt:notice] [pid 9076:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:26:31.835553 2019] [authz_core:error] [pid 9076:tid 1176] [client 10.228.156.151:52958] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/
+[Wed Nov 06 15:26:44.625553 2019] [mpm_winnt:crit] [pid 9076:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:27:05.024553 2019] [core:warn] [pid 4444:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:27:05.182553 2019] [ssl:warn] [pid 4444:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:27:05.206553 2019] [mpm_winnt:notice] [pid 4444:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:27:05.206553 2019] [mpm_winnt:notice] [pid 4444:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:27:05.206553 2019] [core:notice] [pid 4444:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:27:05.209553 2019] [mpm_winnt:notice] [pid 4444:tid 336] AH00418: Parent: Created child process 4188
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:27:05.995553 2019] [ssl:warn] [pid 4188:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:27:06.019553 2019] [mpm_winnt:notice] [pid 4188:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 15:29:08.126548 2019] [authz_core:error] [pid 4188:tid 1160] [client 10.228.156.151:53031] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/
+[Wed Nov 06 15:29:17.823747 2019] [authz_core:error] [pid 4188:tid 1160] [client 10.228.156.151:53033] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/
+[Wed Nov 06 15:29:28.021282 2019] [authz_core:error] [pid 4188:tid 1168] [client 10.228.156.151:53036] AH01630: client denied by server configuration: D:/DATA/AdnroidProject/02-uWamp/phpapps/phpmyadmin/, referer: http://10.228.156.173/
+[Wed Nov 06 15:32:35.579035 2019] [mpm_winnt:crit] [pid 4188:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Nov 06 15:32:35.579035 2019] [mpm_winnt:warn] [pid 4188:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Nov 06 15:32:35.579035 2019] [mpm_winnt:warn] [pid 4188:tid 372] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:32:39.246826 2019] [core:warn] [pid 7396:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 06 15:32:39.405826 2019] [ssl:warn] [pid 7396:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:32:39.432826 2019] [mpm_winnt:notice] [pid 7396:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 06 15:32:39.432826 2019] [mpm_winnt:notice] [pid 7396:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 06 15:32:39.432826 2019] [core:notice] [pid 7396:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 06 15:32:39.435826 2019] [mpm_winnt:notice] [pid 7396:tid 336] AH00418: Parent: Created child process 9076
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 06 15:32:40.251826 2019] [ssl:warn] [pid 9076:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 06 15:32:40.276826 2019] [mpm_winnt:notice] [pid 9076:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 06 16:28:27.122369 2019] [mpm_winnt:crit] [pid 9076:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 13:15:13.819052 2019] [core:warn] [pid 5256:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 20 13:15:13.950803 2019] [ssl:warn] [pid 5256:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 20 13:15:17.857338 2019] [mpm_winnt:notice] [pid 5256:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 20 13:15:17.857338 2019] [mpm_winnt:notice] [pid 5256:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 20 13:15:17.857338 2019] [core:notice] [pid 5256:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 20 13:15:17.872932 2019] [mpm_winnt:notice] [pid 5256:tid 336] AH00418: Parent: Created child process 3184
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 13:15:18.764795 2019] [ssl:warn] [pid 3184:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 20 13:15:18.795983 2019] [mpm_winnt:notice] [pid 3184:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 14:31:57.777871 2019] [mpm_winnt:crit] [pid 3184:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Nov 20 14:31:57.778871 2019] [mpm_winnt:warn] [pid 3184:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Nov 20 14:31:57.778871 2019] [mpm_winnt:warn] [pid 3184:tid 372] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 14:32:02.693871 2019] [core:warn] [pid 10732:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 20 14:32:02.862871 2019] [ssl:warn] [pid 10732:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 20 14:32:03.194871 2019] [mpm_winnt:notice] [pid 10732:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 20 14:32:03.194871 2019] [mpm_winnt:notice] [pid 10732:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 20 14:32:03.194871 2019] [core:notice] [pid 10732:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 20 14:32:03.198871 2019] [mpm_winnt:notice] [pid 10732:tid 336] AH00418: Parent: Created child process 9420
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 14:32:04.061871 2019] [ssl:warn] [pid 9420:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 20 14:32:04.093871 2019] [mpm_winnt:notice] [pid 9420:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 14:56:05.497871 2019] [mpm_winnt:crit] [pid 9420:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Nov 20 14:56:05.497871 2019] [mpm_winnt:warn] [pid 9420:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 14:56:31.200871 2019] [core:warn] [pid 2600:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 20 14:56:31.372871 2019] [ssl:warn] [pid 2600:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 20 14:56:31.410871 2019] [mpm_winnt:notice] [pid 2600:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 20 14:56:31.410871 2019] [mpm_winnt:notice] [pid 2600:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 20 14:56:31.410871 2019] [core:notice] [pid 2600:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 20 14:56:31.414871 2019] [mpm_winnt:notice] [pid 2600:tid 336] AH00418: Parent: Created child process 4576
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 20 14:56:32.226871 2019] [ssl:warn] [pid 4576:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 20 14:56:32.258871 2019] [mpm_winnt:notice] [pid 4576:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 16:26:55.120462 2019] [mpm_winnt:notice] [pid 2600:tid 336] AH00428: Parent: child process 4576 exited with status 1073807364 -- Restarting.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 27 13:19:09.696843 2019] [core:warn] [pid 2240:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 27 13:19:09.947191 2019] [ssl:warn] [pid 2240:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 27 13:19:10.626397 2019] [mpm_winnt:notice] [pid 2240:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Nov 27 13:19:10.626397 2019] [mpm_winnt:notice] [pid 2240:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Nov 27 13:19:10.626397 2019] [core:notice] [pid 2240:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Nov 27 13:19:10.629399 2019] [mpm_winnt:notice] [pid 2240:tid 336] AH00418: Parent: Created child process 8776
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Nov 27 13:19:11.608982 2019] [ssl:warn] [pid 8776:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Nov 27 13:19:11.640200 2019] [mpm_winnt:notice] [pid 8776:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 27 16:27:42.910937 2019] [mpm_winnt:crit] [pid 8776:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 04 13:11:50.574226 2019] [core:warn] [pid 7100:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 04 13:11:50.730457 2019] [ssl:warn] [pid 7100:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 04 13:11:51.808450 2019] [mpm_winnt:notice] [pid 7100:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Dec 04 13:11:51.808450 2019] [mpm_winnt:notice] [pid 7100:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Dec 04 13:11:51.808450 2019] [core:notice] [pid 7100:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Dec 04 13:11:51.808450 2019] [mpm_winnt:notice] [pid 7100:tid 336] AH00418: Parent: Created child process 6148
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 04 13:11:52.605229 2019] [ssl:warn] [pid 6148:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 04 13:11:52.636475 2019] [mpm_winnt:notice] [pid 6148:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 04 16:30:36.857811 2019] [mpm_winnt:notice] [pid 7100:tid 336] AH00428: Parent: child process 6148 exited with status 1073807364 -- Restarting.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 11 13:22:00.210430 2019] [core:warn] [pid 10344:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 11 13:22:00.389395 2019] [ssl:warn] [pid 10344:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 11 13:22:00.872298 2019] [mpm_winnt:notice] [pid 10344:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Dec 11 13:22:00.872298 2019] [mpm_winnt:notice] [pid 10344:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Dec 11 13:22:00.872298 2019] [core:notice] [pid 10344:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Dec 11 13:22:00.876297 2019] [mpm_winnt:notice] [pid 10344:tid 336] AH00418: Parent: Created child process 11236
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 11 13:22:01.928087 2019] [ssl:warn] [pid 11236:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 11 13:22:01.968079 2019] [mpm_winnt:notice] [pid 11236:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 11 14:45:10.946326 2019] [mpm_winnt:notice] [pid 10344:tid 336] AH00428: Parent: child process 11236 exited with status 1073807364 -- Restarting.
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 18 13:03:47.031176 2019] [core:warn] [pid 4464:tid 336] AH00098: pid file D:/DATA/AdnroidProject/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 13:03:47.186811 2019] [ssl:warn] [pid 4464:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 18 13:03:48.214002 2019] [mpm_winnt:notice] [pid 4464:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Dec 18 13:03:48.214002 2019] [mpm_winnt:notice] [pid 4464:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Dec 18 13:03:48.214002 2019] [core:notice] [pid 4464:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Dec 18 13:03:48.291819 2019] [mpm_winnt:notice] [pid 4464:tid 336] AH00418: Parent: Created child process 2036
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Dec 18 13:03:49.023304 2019] [ssl:warn] [pid 2036:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Dec 18 13:03:49.054431 2019] [mpm_winnt:notice] [pid 2036:tid 348] AH00354: Child: Starting 64 worker threads.

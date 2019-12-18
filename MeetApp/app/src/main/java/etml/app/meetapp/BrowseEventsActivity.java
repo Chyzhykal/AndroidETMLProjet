@@ -92,7 +92,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
 
             TextView eventName = new TextView(this);
             eventName.setText(events.get(i).getName());
-            eventName.setTextSize(24);
+            eventName.setTextSize(20);
             eventName.setId(View.generateViewId());
             frame.addView(eventName);
 
@@ -101,7 +101,6 @@ public class BrowseEventsActivity extends AppCompatActivity {
 
             nameConstraints.connect(eventName.getId(), ConstraintSet.TOP, frame.getId(), ConstraintSet.TOP, 0);
             nameConstraints.connect(eventName.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 0);
-            //nameConstraints.constrainDefaultHeight(eventName.getId(), 200);
             nameConstraints.applyTo(frame);
 
             TextView startDateTime = new TextView(this);
@@ -158,7 +157,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
     }
 
     /**
-     * Gets all events asynchroneously
+     * Gets all events with async class
      */
     private class AsyncGetAll extends AsyncTask<Void, Void, Void> {
         List<EventEntity> retrievedEvents;

@@ -27,6 +27,8 @@
     <string name="is_private">Is Private</string>
     <string name="max_users">Max Participants</string>
     <string name="logout">Logout</string>
-    <string name="birth_date">Birth Date</string>
+    <string name="birth_date1">Birth Date (Year/Month/Day)</string>
+    <string name="birth_date2">Month</string>
+    <string name="birth_date3">Day</string>
     <string name="kudos">Kudos</string>
 </resources>

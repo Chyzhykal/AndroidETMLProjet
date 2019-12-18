@@ -1,0 +1,1731 @@
+2019-11-06T14:10:32.567392Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:10:32.567392Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:10:32.567392Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:10:32.567392Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:10:32.567392Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:10:32.567392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9532 ...
+2019-11-06T14:10:32.584392Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:10:32.585392Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:10:32.586392Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:10:32.587392Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:10:32.587392Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:10:32.587392Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:10:32.588392Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:10:32.589392Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:10:32.641392Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:10:32.651392Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:10:32.776392Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:10:32.979392Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:10:32.980392Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:10:33.116392Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:10:33.127392Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:10:33.128392Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:10:33.129392Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279420
+2019-11-06T14:10:33.130392Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:10:33.130392Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:10:33.159392Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:10:33.161392Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:10:33.162392Z 0 [Note] IPv6 is available.
+2019-11-06T14:10:33.162392Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:10:33.163392Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:10:33.185392Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:10:33
+2019-11-06T14:10:33.189392Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:10:33.190392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:10:35.072392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:10:35.073392Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:10:35.073392Z 0 [Note] Shutting down slave threads
+2019-11-06T14:10:35.073392Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:10:35.074392Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:10:35.075392Z 0 [Note] Binlog end
+2019-11-06T14:10:35.076392Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:10:35.077392Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:10:35.077392Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:10:35.077392Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:10:35.078392Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:10:35.078392Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:10:35.079392Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:10:35.079392Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:10:35.080392Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:10:35.080392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:10:35.081392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:10:35.081392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:10:35.082392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:10:35.082392Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:10:35.083392Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:10:35.083392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:10:35.084392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:10:35.084392Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:10:35.084392Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:10:35.085392Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:10:35.085392Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:10:35.086392Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:10:35.086392Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:10:35.086392Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:10:35.087392Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:10:35.087392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:10:35.088392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:10:35.088392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:10:35.088392Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:10:35.089392Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:10:35.089392Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:10:35.089392Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:10:35.090392Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:10:35.090392Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:10:35.090392Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:10:35.091392Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:10:35.091392Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:10:35.092392Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:10:35.092392Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:10:35.092392Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:10:35.193392Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:10:35.195392Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:10:35
+2019-11-06T14:10:36.047392Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279439
+2019-11-06T14:10:36.048392Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:10:36.048392Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:10:36.048392Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:10:36.048392Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:10:36.049392Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:10:36.049392Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:10:36.050392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:10:36.876392Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:10:36.876392Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:10:36.876392Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:10:36.876392Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:10:36.877392Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:10:36.877392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9952 ...
+2019-11-06T14:10:36.887392Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:10:36.888392Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:10:36.889392Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:10:36.889392Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:10:36.890392Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:10:36.890392Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:10:36.891392Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:10:36.891392Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:10:36.928392Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:10:36.937392Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:10:36.976392Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:10:37.072392Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:10:37.073392Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:10:37.195392Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:10:37.202392Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:10:37.203392Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:10:37.204392Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279439
+2019-11-06T14:10:37.205392Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:10:37.205392Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:10:37.214392Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:10:37.215392Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:10:37.216392Z 0 [Note] IPv6 is available.
+2019-11-06T14:10:37.217392Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:10:37.217392Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:10:37.232392Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:10:37
+2019-11-06T14:10:37.242392Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:10:37.243392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:10:39.554392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:10:39.555392Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:10:39.556392Z 0 [Note] Shutting down slave threads
+2019-11-06T14:10:39.556392Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:10:39.556392Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:10:39.557392Z 0 [Note] Binlog end
+2019-11-06T14:10:39.558392Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:10:39.558392Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:10:39.559392Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:10:39.559392Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:10:39.559392Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:10:39.560392Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:10:39.560392Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:10:39.560392Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:10:39.561392Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:10:39.561392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:10:39.562392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:10:39.562392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:10:39.562392Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:10:39.563392Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:10:39.563392Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:10:39.563392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:10:39.564392Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:10:39.564392Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:10:39.564392Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:10:39.565392Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:10:39.565392Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:10:39.566392Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:10:39.566392Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:10:39.567392Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:10:39.567392Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:10:39.567392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:10:39.568392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:10:39.568392Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:10:39.568392Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:10:39.569392Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:10:39.569392Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:10:39.569392Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:10:39.570392Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:10:39.570392Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:10:39.570392Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:10:39.570392Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:10:39.571392Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:10:39.571392Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:10:39.571392Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:10:39.572392Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:10:39.672392Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:10:39.674392Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:10:39
+2019-11-06T14:10:40.751392Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279467
+2019-11-06T14:10:40.751392Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:10:40.752392Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:10:40.752392Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:10:40.752392Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:10:40.753392Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:10:40.753392Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:10:40.754392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:10:41.320392Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:10:41.320392Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:10:41.320392Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:10:41.320392Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:10:41.320392Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:10:41.320392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9984 ...
+2019-11-06T14:10:41.331392Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:10:41.332392Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:10:41.333392Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:10:41.333392Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:10:41.334392Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:10:41.334392Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:10:41.334392Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:10:41.335392Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:10:41.372392Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:10:41.381392Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:10:41.410392Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:10:41.515392Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:10:41.516392Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:10:41.627392Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:10:41.633392Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:10:41.634392Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:10:41.635392Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279467
+2019-11-06T14:10:41.636392Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:10:41.636392Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:10:41.641392Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:10:41.643392Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:10:41.644392Z 0 [Note] IPv6 is available.
+2019-11-06T14:10:41.645392Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:10:41.645392Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:10:41.652392Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:10:41
+2019-11-06T14:10:41.669392Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:10:41.669392Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:13:22.977574Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:13:22.978574Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:13:22.978574Z 0 [Note] Shutting down slave threads
+2019-11-06T14:13:22.979574Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:13:22.979574Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:13:22.980574Z 0 [Note] Binlog end
+2019-11-06T14:13:22.982574Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:13:22.982574Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:13:22.983574Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:13:22.983574Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:13:22.983574Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:13:22.984574Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:13:22.984574Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:13:22.985574Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:13:22.985574Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:13:22.986574Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:13:22.987574Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:13:22.987574Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:13:22.988574Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:13:22.988574Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:13:22.989574Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:13:22.990574Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:13:22.990574Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:13:22.991574Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:13:22.991574Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:13:22.992574Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:13:22.992574Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:13:22.993574Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:13:22.993574Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:13:22.994574Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:13:22.994574Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:13:22.994574Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:13:22.995574Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:13:22.995574Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:13:22.996574Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:13:22.996574Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:13:22.997574Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:13:22.997574Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:13:22.998574Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:13:22.998574Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:13:22.999574Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:13:22.999574Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:13:23.000574Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:13:23.000574Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:13:23.000574Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:13:23.001574Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:13:23.101574Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:13:23.103574Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:13:23
+2019-11-06T14:13:24.176171Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279495
+2019-11-06T14:13:24.177171Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:13:24.178171Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:13:24.178171Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:13:24.179171Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:13:24.179171Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:13:24.180171Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:13:24.180171Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:13:24.722171Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:13:24.722171Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:13:24.722171Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:13:24.722171Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:13:24.723171Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:13:24.723171Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10848 ...
+2019-11-06T14:13:24.733171Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:13:24.734171Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:13:24.736171Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:13:24.736171Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:13:24.737171Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:13:24.737171Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:13:24.738171Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:13:24.738171Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:13:24.779171Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:13:24.787171Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:13:24.817171Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:13:24.958171Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:13:24.959171Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:13:25.080171Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:13:25.088171Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:13:25.089171Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:13:25.090171Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279495
+2019-11-06T14:13:25.092171Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:13:25.092171Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:13:25.120171Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:13:25.123171Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:13:25.124171Z 0 [Note] IPv6 is available.
+2019-11-06T14:13:25.124171Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:13:25.125171Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:13:25.146171Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:13:25
+2019-11-06T14:13:25.148171Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:13:25.149171Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:13:37.675368Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:13:37.676368Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:13:37.676368Z 0 [Note] Shutting down slave threads
+2019-11-06T14:13:37.677368Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:13:37.677368Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:13:37.678368Z 0 [Note] Binlog end
+2019-11-06T14:13:37.680368Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:13:37.680368Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:13:37.680368Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:13:37.681368Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:13:37.681368Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:13:37.682368Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:13:37.683368Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:13:37.683368Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:13:37.683368Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:13:37.684368Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:13:37.685368Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:13:37.685368Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:13:37.686368Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:13:37.687368Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:13:37.687368Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:13:37.688368Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:13:37.689368Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:13:37.689368Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:13:37.690368Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:13:37.691368Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:13:37.692368Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:13:37.693368Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:13:37.693368Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:13:37.694368Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:13:37.694368Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:13:37.695368Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:13:37.695368Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:13:37.696368Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:13:37.696368Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:13:37.697368Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:13:37.697368Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:13:37.698368Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:13:37.698368Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:13:37.699368Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:13:37.699368Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:13:37.699368Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:13:37.700368Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:13:37.700368Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:13:37.701368Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:13:37.701368Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:13:37.803166Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:13:37.805166Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:13:37
+2019-11-06T14:13:38.647957Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279523
+2019-11-06T14:13:38.648957Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:13:38.648957Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:13:38.649957Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:13:38.649957Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:13:38.650957Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:13:38.650957Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:13:38.653957Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:13:39.402957Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:13:39.402957Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:13:39.402957Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:13:39.402957Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:13:39.402957Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:13:39.402957Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9044 ...
+2019-11-06T14:13:39.412957Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:13:39.415957Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:13:39.416957Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:13:39.417957Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:13:39.418957Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:13:39.419957Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:13:39.420957Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:13:39.420957Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:13:39.457957Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:13:39.465957Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:13:39.505957Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:13:39.595957Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:13:39.596957Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:13:39.721957Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:13:39.729957Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:13:39.729957Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:13:39.734957Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279523
+2019-11-06T14:13:39.735957Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:13:39.736957Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:13:39.774957Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:13:39.776957Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:13:39.778957Z 0 [Note] IPv6 is available.
+2019-11-06T14:13:39.778957Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:13:39.778957Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:13:39.803957Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:13:39.803957Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:13:39.819957Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:13:39
+2019-11-06T14:15:30.787305Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:15:30.788305Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:15:30.789305Z 0 [Note] Shutting down slave threads
+2019-11-06T14:15:30.789305Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:15:30.790305Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:15:30.791305Z 0 [Note] Binlog end
+2019-11-06T14:15:30.792305Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:15:30.793305Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:15:30.793305Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:15:30.794305Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:15:30.794305Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:15:30.795305Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:15:30.795305Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:15:30.796305Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:15:30.796305Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:15:30.797305Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:15:30.797305Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:15:30.798305Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:15:30.799305Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:15:30.799305Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:15:30.800305Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:15:30.800305Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:15:30.801305Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:15:30.801305Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:15:30.802305Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:15:30.802305Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:15:30.803305Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:15:30.803305Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:15:30.804305Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:15:30.804305Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:15:30.805305Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:15:30.805305Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:15:30.806305Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:15:30.806305Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:15:30.807305Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:15:30.807305Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:15:30.808305Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:15:30.808305Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:15:30.809305Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:15:30.809305Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:15:30.810305Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:15:30.810305Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:15:30.811305Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:15:30.812305Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:15:30.812305Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:15:30.813305Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:15:30.913905Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:15:30.915905Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:15:30
+2019-11-06T14:15:32.162502Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279551
+2019-11-06T14:15:32.163502Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:15:32.164502Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:15:32.164502Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:15:32.164502Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:15:32.165502Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:15:32.165502Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:15:32.166502Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:15:33.024502Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:15:33.024502Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:15:33.024502Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:15:33.024502Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:15:33.024502Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:15:33.024502Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10796 ...
+2019-11-06T14:15:33.034502Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:15:33.036502Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:15:33.037502Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:15:33.037502Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:15:33.037502Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:15:33.038502Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:15:33.039502Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:15:33.039502Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:15:33.087502Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:15:33.097502Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:15:33.135502Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:15:33.236502Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:15:33.237502Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:15:33.370502Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:15:33.372502Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:15:33.372502Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:15:33.375502Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279551
+2019-11-06T14:15:33.376502Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:15:33.376502Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:15:33.382502Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:15:33.384502Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:15:33.385502Z 0 [Note] IPv6 is available.
+2019-11-06T14:15:33.385502Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:15:33.386502Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:15:33.388502Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:15:33
+2019-11-06T14:15:33.407502Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:15:33.407502Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:15:33.838497Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:15:33.838497Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down slave threads
+2019-11-06T14:15:33.838497Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:15:33.838497Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:15:33.838497Z 0 [Note] Binlog end
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:15:33.838497Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:15:33.854096Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:15:33.854096Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:15:33.854096Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:15:33.963293Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:15:33.963293Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:15:33
+2019-11-06T14:15:34.856069Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279570
+2019-11-06T14:15:34.857069Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:15:34.858069Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:15:34.858069Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:15:34.858069Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:15:34.859069Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:15:34.859069Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:15:34.860069Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:15:35.566069Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:15:35.566069Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:15:35.566069Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:15:35.566069Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:15:35.566069Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:15:35.566069Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 6644 ...
+2019-11-06T14:15:35.579069Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:15:35.580069Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:15:35.581069Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:15:35.582069Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:15:35.582069Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:15:35.583069Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:15:35.583069Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:15:35.584069Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:15:35.617069Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:15:35.626069Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:15:35.669069Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:15:35.774069Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:15:35.775069Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:15:35.906069Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:15:35.908069Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:15:35.908069Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:15:35.910069Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279570
+2019-11-06T14:15:35.912069Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:15:35.912069Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:15:35.917069Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:15:35.919069Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:15:35.920069Z 0 [Note] IPv6 is available.
+2019-11-06T14:15:35.921069Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:15:35.921069Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:15:35.924069Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:15:35
+2019-11-06T14:15:35.941069Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:15:35.942069Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:17:07.671394Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:17:07.672394Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:17:07.673394Z 0 [Note] Shutting down slave threads
+2019-11-06T14:17:07.673394Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:17:07.673394Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:17:07.674394Z 0 [Note] Binlog end
+2019-11-06T14:17:07.676394Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:17:07.677394Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:17:07.677394Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:17:07.678394Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:17:07.678394Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:17:07.679394Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:17:07.680394Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:17:07.680394Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:17:07.681394Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:17:07.682394Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:17:07.683394Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:17:07.684394Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:17:07.684394Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:17:07.685394Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:17:07.685394Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:17:07.686394Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:17:07.686394Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:17:07.687394Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:17:07.687394Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:17:07.687394Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:17:07.688394Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:17:07.688394Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:17:07.689394Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:17:07.689394Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:17:07.690394Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:17:07.690394Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:17:07.691394Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:17:07.691394Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:17:07.692394Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:17:07.692394Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:17:07.693394Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:17:07.693394Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:17:07.693394Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:17:07.694394Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:17:07.694394Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:17:07.695394Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:17:07.695394Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:17:07.696394Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:17:07.696394Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:17:07.696394Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:17:07.839993Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:17:07.839993Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:17:07
+2019-11-06T14:17:09.029786Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279598
+2019-11-06T14:17:09.029786Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:17:09.030786Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:17:09.030786Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:17:09.031786Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:17:09.031786Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:17:09.032786Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:17:09.033786Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:17:09.918786Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:17:09.918786Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:17:09.918786Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:17:09.918786Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:17:09.918786Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:17:09.918786Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10972 ...
+2019-11-06T14:17:09.929786Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:17:09.931786Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:17:09.932786Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:17:09.932786Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:17:09.933786Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:17:09.933786Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:17:09.934786Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:17:09.934786Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:17:09.985786Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:17:09.994786Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:17:10.038786Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:17:10.127786Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:17:10.128786Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:17:10.264786Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:17:10.282786Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:17:10.282786Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:17:10.284786Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279598
+2019-11-06T14:17:10.285786Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:17:10.286786Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:17:10.291786Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:17:10.293786Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:17:10.294786Z 0 [Note] IPv6 is available.
+2019-11-06T14:17:10.294786Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:17:10.295786Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:17:10.308786Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:17:10
+2019-11-06T14:17:10.316786Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:17:10.317786Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:17:51.849373Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:17:51.851373Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:17:51.851373Z 0 [Note] Shutting down slave threads
+2019-11-06T14:17:51.851373Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:17:51.852373Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:17:51.853373Z 0 [Note] Binlog end
+2019-11-06T14:17:51.854373Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:17:51.855373Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:17:51.855373Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:17:51.855373Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:17:51.856373Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:17:51.856373Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:17:51.857373Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:17:51.857373Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:17:51.858373Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:17:51.858373Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:17:51.859373Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:17:51.859373Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:17:51.860373Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:17:51.860373Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:17:51.861373Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:17:51.862373Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:17:51.862373Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:17:51.863373Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:17:51.863373Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:17:51.864373Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:17:51.864373Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:17:51.865373Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:17:51.865373Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:17:51.866373Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:17:51.866373Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:17:51.866373Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:17:51.867373Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:17:51.867373Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:17:51.868373Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:17:51.868373Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:17:51.869373Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:17:51.869373Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:17:51.870373Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:17:51.870373Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:17:51.870373Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:17:51.871373Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:17:51.871373Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:17:51.872373Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:17:51.872373Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:17:51.873373Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:17:51.973373Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:17:51.975373Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:17:51
+2019-11-06T14:17:52.739772Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279626
+2019-11-06T14:17:52.740772Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:17:52.740772Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:17:52.741772Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:17:52.741772Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:17:52.742772Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:17:52.742772Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:17:52.743772Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:17:53.576772Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:17:53.576772Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:17:53.576772Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:17:53.576772Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:17:53.576772Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:17:53.576772Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 8876 ...
+2019-11-06T14:17:53.586772Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:17:53.588772Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:17:53.589772Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:17:53.590772Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:17:53.590772Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:17:53.590772Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:17:53.591772Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:17:53.592772Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:17:53.635772Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:17:53.644772Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:17:53.681772Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:17:53.771772Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:17:53.772772Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:17:53.911772Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:17:53.923772Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:17:53.924772Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:17:53.936772Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279626
+2019-11-06T14:17:53.937772Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:17:53.938772Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:17:53.943772Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:17:53.945772Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-11-06T14:17:53.946772Z 0 [Note] IPv6 is available.
+2019-11-06T14:17:53.947772Z 0 [Note]   - '::' resolves to '::';
+2019-11-06T14:17:53.947772Z 0 [Note] Server socket created on IP: '::'.
+2019-11-06T14:17:53.966772Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:17:53.967772Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:17:53.974772Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:17:53
+2019-11-06T14:26:25.795553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:26:25.796553Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:26:25.797553Z 0 [Note] Shutting down slave threads
+2019-11-06T14:26:25.798553Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:26:25.799553Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:26:25.800553Z 0 [Note] Binlog end
+2019-11-06T14:26:25.804553Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:26:25.805553Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:26:25.805553Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:26:25.806553Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:26:25.807553Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:26:25.808553Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:26:25.809553Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:26:25.809553Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:26:25.810553Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:26:25.811553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:26:25.811553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:26:25.812553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:26:25.813553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:26:25.814553Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:26:25.814553Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:26:25.815553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:26:25.815553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:26:25.816553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:26:25.816553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:26:25.817553Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:26:25.817553Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:26:25.818553Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:26:25.818553Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:26:25.819553Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:26:25.819553Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:26:25.820553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:26:25.820553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:26:25.821553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:26:25.821553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:26:25.822553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:26:25.822553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:26:25.823553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:26:25.823553Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:26:25.824553Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:26:25.824553Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:26:25.825553Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:26:25.825553Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:26:25.826553Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:26:25.826553Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:26:25.827553Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:26:25.928553Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:26:25.930553Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:26:25
+2019-11-06T14:26:27.066553Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279654
+2019-11-06T14:26:27.066553Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:26:27.067553Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:26:27.067553Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:26:27.068553Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:26:27.068553Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:26:27.069553Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:26:27.070553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:26:29.646553Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:26:29.646553Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:26:29.646553Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:26:29.646553Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:26:29.646553Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:26:29.646553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10656 ...
+2019-11-06T14:26:29.657553Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:26:29.658553Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:26:29.659553Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:26:29.660553Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:26:29.660553Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:26:29.661553Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:26:29.661553Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:26:29.662553Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:26:29.712553Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:26:29.723553Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:26:29.763553Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:26:29.853553Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:26:29.854553Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:26:29.997553Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:26:29.999553Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:26:30.000553Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:26:30.002553Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279654
+2019-11-06T14:26:30.003553Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:26:30.003553Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:26:30.031553Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:26:30.033553Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-06T14:26:30.034553Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-06T14:26:30.034553Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-06T14:26:30.048553Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:26:30
+2019-11-06T14:26:30.060553Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:26:30.060553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:26:45.775553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:26:45.776553Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:26:45.777553Z 0 [Note] Shutting down slave threads
+2019-11-06T14:26:45.777553Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:26:45.777553Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:26:45.778553Z 0 [Note] Binlog end
+2019-11-06T14:26:45.780553Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:26:45.780553Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:26:45.780553Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:26:45.781553Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:26:45.781553Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:26:45.782553Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:26:45.782553Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:26:45.783553Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:26:45.783553Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:26:45.784553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:26:45.784553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:26:45.785553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:26:45.785553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:26:45.786553Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:26:45.786553Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:26:45.787553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:26:45.788553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:26:45.789553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:26:45.789553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:26:45.790553Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:26:45.790553Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:26:45.791553Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:26:45.791553Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:26:45.792553Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:26:45.792553Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:26:45.793553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:26:45.793553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:26:45.794553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:26:45.794553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:26:45.794553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:26:45.795553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:26:45.795553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:26:45.796553Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:26:45.796553Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:26:45.797553Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:26:45.797553Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:26:45.797553Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:26:45.798553Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:26:45.798553Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:26:45.799553Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:26:45.899553Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:26:45.901553Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:26:45
+2019-11-06T14:26:47.053553Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279682
+2019-11-06T14:26:47.054553Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:26:47.054553Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:26:47.055553Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:26:47.055553Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:26:47.056553Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:26:47.056553Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:26:47.057553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:26:47.540553Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:26:47.540553Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:26:47.540553Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:26:47.540553Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:26:47.541553Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:26:47.541553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10648 ...
+2019-11-06T14:26:47.553553Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:26:47.554553Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:26:47.555553Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:26:47.556553Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:26:47.556553Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:26:47.557553Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:26:47.557553Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:26:47.558553Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:26:47.592553Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:26:47.600553Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:26:47.640553Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:26:47.729553Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:26:47.729553Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:26:47.852553Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:26:47.860553Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:26:47.861553Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:26:47.873553Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279682
+2019-11-06T14:26:47.874553Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:26:47.875553Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:26:47.880553Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:26:47.883553Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-06T14:26:47.884553Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-06T14:26:47.884553Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-06T14:26:47.904553Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:26:47.904553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:26:47.911553Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:26:47
+2019-11-06T14:27:01.951553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:27:01.952553Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:27:01.953553Z 0 [Note] Shutting down slave threads
+2019-11-06T14:27:01.953553Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:27:01.954553Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:27:01.954553Z 0 [Note] Binlog end
+2019-11-06T14:27:01.956553Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:27:01.956553Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:27:01.957553Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:27:01.957553Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:27:01.957553Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:27:01.958553Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:27:01.958553Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:27:01.959553Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:27:01.959553Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:27:01.960553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:27:01.960553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:27:01.961553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:27:01.961553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:27:01.962553Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:27:01.963553Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:27:01.963553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:27:01.964553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:27:01.964553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:27:01.965553Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:27:01.965553Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:27:01.966553Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:27:01.966553Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:27:01.967553Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:27:01.967553Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:27:01.968553Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:27:01.968553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:27:01.969553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:27:01.969553Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:27:01.969553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:27:01.970553Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:27:01.970553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:27:01.971553Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:27:01.971553Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:27:01.972553Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:27:01.972553Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:27:01.972553Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:27:01.973553Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:27:01.973553Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:27:01.974553Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:27:01.974553Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:27:02.075553Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:27:02.077553Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:27:02
+2019-11-06T14:27:03.314553Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279710
+2019-11-06T14:27:03.315553Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:27:03.315553Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:27:03.316553Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:27:03.316553Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:27:03.317553Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:27:03.317553Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:27:03.318553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:27:04.224553Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:27:04.224553Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:27:04.224553Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:27:04.224553Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:27:04.224553Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:27:04.224553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9612 ...
+2019-11-06T14:27:04.236553Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:27:04.238553Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:27:04.239553Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:27:04.240553Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:27:04.240553Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:27:04.241553Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:27:04.241553Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:27:04.242553Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:27:04.279553Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:27:04.288553Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:27:04.328553Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:27:04.418553Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:27:04.419553Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:27:04.547553Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:27:04.549553Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:27:04.550553Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:27:04.552553Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279710
+2019-11-06T14:27:04.554553Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:27:04.554553Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:27:04.583553Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:27:04.586553Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-06T14:27:04.587553Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-06T14:27:04.587553Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-06T14:27:04.610553Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:27:04.610553Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T14:27:04.611553Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:27:04
+2019-11-06T14:32:36.763826Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T14:32:36.764826Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T14:32:36.765826Z 0 [Note] Shutting down slave threads
+2019-11-06T14:32:36.765826Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T14:32:36.766826Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T14:32:36.767826Z 0 [Note] Binlog end
+2019-11-06T14:32:36.769826Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T14:32:36.769826Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T14:32:36.770826Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T14:32:36.770826Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T14:32:36.770826Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T14:32:36.771826Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T14:32:36.771826Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T14:32:36.772826Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T14:32:36.772826Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T14:32:36.773826Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T14:32:36.773826Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T14:32:36.774826Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T14:32:36.774826Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T14:32:36.775826Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T14:32:36.776826Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T14:32:36.776826Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T14:32:36.777826Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T14:32:36.777826Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T14:32:36.778826Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T14:32:36.778826Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T14:32:36.779826Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T14:32:36.779826Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T14:32:36.780826Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T14:32:36.780826Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T14:32:36.780826Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T14:32:36.781826Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T14:32:36.781826Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T14:32:36.782826Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T14:32:36.782826Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T14:32:36.783826Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T14:32:36.783826Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T14:32:36.783826Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T14:32:36.784826Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T14:32:36.784826Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T14:32:36.785826Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T14:32:36.785826Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T14:32:36.785826Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T14:32:36.786826Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T14:32:36.786826Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T14:32:36.787826Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T14:32:36.887826Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:32:36.889826Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 15:32:36
+2019-11-06T14:32:38.042826Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4279738
+2019-11-06T14:32:38.043826Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T14:32:38.043826Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T14:32:38.044826Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T14:32:38.044826Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T14:32:38.044826Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T14:32:38.045826Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T14:32:38.048826Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-06T14:32:38.499826Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-06T14:32:38.500826Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-06T14:32:38.500826Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-06T14:32:38.500826Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-06T14:32:38.500826Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-06T14:32:38.500826Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10440 ...
+2019-11-06T14:32:38.512826Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-06T14:32:38.514826Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-06T14:32:38.515826Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-06T14:32:38.516826Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-06T14:32:38.516826Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-06T14:32:38.516826Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-06T14:32:38.517826Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-06T14:32:38.518826Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-06T14:32:38.561826Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-06T14:32:38.571826Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-06T14:32:38.617826Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-06T14:32:38.735826Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-06T14:32:38.736826Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-06T14:32:38.861826Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-06T14:32:38.869826Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-06T14:32:38.870826Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-06T14:32:38.872826Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4279738
+2019-11-06T14:32:38.873826Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T14:32:38.873826Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-06T14:32:38.880826Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-06T14:32:38.882826Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-06T14:32:38.883826Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-06T14:32:38.883826Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-06T14:32:38.898826Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191106 15:32:38
+2019-11-06T14:32:38.906826Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-06T14:32:38.907826Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-06T15:28:28.257969Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-06T15:28:28.258969Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-06T15:28:28.259969Z 0 [Note] Shutting down slave threads
+2019-11-06T15:28:28.259969Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-06T15:28:28.260969Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-06T15:28:28.260969Z 0 [Note] Binlog end
+2019-11-06T15:28:28.264969Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-06T15:28:28.264969Z 0 [Note] Shutting down plugin 'partition'
+2019-11-06T15:28:28.265969Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-06T15:28:28.265969Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-06T15:28:28.265969Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-06T15:28:28.266969Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-06T15:28:28.267969Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-06T15:28:28.267969Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-06T15:28:28.268969Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-06T15:28:28.269969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-06T15:28:28.269969Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-06T15:28:28.270969Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-06T15:28:28.270969Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-06T15:28:28.270969Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-06T15:28:28.271969Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-06T15:28:28.271969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-06T15:28:28.272969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-06T15:28:28.272969Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-06T15:28:28.273969Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-06T15:28:28.273969Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-06T15:28:28.274969Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-06T15:28:28.274969Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-06T15:28:28.275969Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-06T15:28:28.275969Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-06T15:28:28.276969Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-06T15:28:28.276969Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-06T15:28:28.276969Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-06T15:28:28.277969Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-06T15:28:28.277969Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-06T15:28:28.278969Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-06T15:28:28.278969Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-06T15:28:28.279969Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-06T15:28:28.279969Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-06T15:28:28.279969Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-06T15:28:28.280969Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-06T15:28:28.280969Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-06T15:28:28.281969Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-06T15:28:28.281969Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-06T15:28:28.282969Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-06T15:28:28.282969Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-06T15:28:28.382969Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-06T15:28:28.384969Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191106 16:28:28
+2019-11-06T15:28:29.719369Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4902706
+2019-11-06T15:28:29.719369Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-06T15:28:29.719369Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-06T15:28:29.719369Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-06T15:28:29.719369Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-06T15:28:29.719369Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-06T15:28:29.719369Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-06T15:28:29.719369Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-20T12:15:13.277856Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-20T12:15:13.277856Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-20T12:15:13.277856Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-20T12:15:13.277856Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-20T12:15:13.277856Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-20T12:15:13.277856Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 4524 ...
+2019-11-20T12:15:13.324639Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-20T12:15:13.324639Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-20T12:15:13.324639Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-20T12:15:13.356826Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-20T12:15:13.388015Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-20T12:15:13.499173Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-20T12:15:14.007983Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-20T12:15:14.007983Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-20T12:15:14.320865Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-20T12:15:14.320865Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-20T12:15:14.320865Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-20T12:15:14.336459Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4902706
+2019-11-20T12:15:14.336459Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-20T12:15:14.336459Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-20T12:15:14.785090Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-20T12:15:14.800685Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-20T12:15:14.800685Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-20T12:15:14.800685Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-20T12:15:15.383664Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191120 13:15:15
+2019-11-20T12:15:16.444865Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-20T12:15:16.444865Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-20T13:31:59.069871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-20T13:31:59.070871Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-20T13:31:59.070871Z 0 [Note] Shutting down slave threads
+2019-11-20T13:31:59.070871Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-20T13:31:59.071871Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-20T13:31:59.071871Z 0 [Note] Binlog end
+2019-11-20T13:31:59.094871Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-20T13:31:59.094871Z 0 [Note] Shutting down plugin 'partition'
+2019-11-20T13:31:59.094871Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-20T13:31:59.094871Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-20T13:31:59.095871Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-20T13:31:59.095871Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-20T13:31:59.095871Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-20T13:31:59.096871Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-20T13:31:59.096871Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-20T13:31:59.096871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-20T13:31:59.097871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-20T13:31:59.097871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-20T13:31:59.097871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-20T13:31:59.097871Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-20T13:31:59.098871Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-20T13:31:59.098871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-20T13:31:59.098871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-20T13:31:59.099871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-20T13:31:59.099871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-20T13:31:59.099871Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-20T13:31:59.100871Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-20T13:31:59.100871Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-20T13:31:59.100871Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-20T13:31:59.100871Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-20T13:31:59.101871Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-20T13:31:59.101871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-20T13:31:59.101871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-20T13:31:59.102871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-20T13:31:59.102871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-20T13:31:59.102871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-20T13:31:59.103871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-20T13:31:59.103871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-20T13:31:59.103871Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-20T13:31:59.103871Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-20T13:31:59.104871Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-20T13:31:59.104871Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-20T13:31:59.104871Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-20T13:31:59.104871Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-20T13:31:59.105871Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-20T13:31:59.105871Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-20T13:31:59.205871Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-20T13:31:59.207871Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191120 14:31:59
+2019-11-20T13:32:00.601871Z 0 [Note] InnoDB: Shutdown completed; log sequence number 6184531
+2019-11-20T13:32:00.601871Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-20T13:32:00.602871Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-20T13:32:00.602871Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-20T13:32:00.602871Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-20T13:32:00.603871Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-20T13:32:00.603871Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-20T13:32:00.604871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-20T13:32:02.031871Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-20T13:32:02.031871Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-20T13:32:02.031871Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-20T13:32:02.031871Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-20T13:32:02.032871Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-20T13:32:02.032871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9288 ...
+2019-11-20T13:32:02.066871Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-20T13:32:02.067871Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-20T13:32:02.068871Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-20T13:32:02.069871Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-20T13:32:02.070871Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-20T13:32:02.070871Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-20T13:32:02.071871Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-20T13:32:02.071871Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-20T13:32:02.118871Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-20T13:32:02.135871Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-20T13:32:02.190871Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-20T13:32:02.410871Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-20T13:32:02.411871Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-20T13:32:02.815871Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-20T13:32:02.833871Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-20T13:32:02.834871Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-20T13:32:02.835871Z 0 [Note] InnoDB: Waiting for purge to start
+2019-11-20T13:32:02.888871Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6184531
+2019-11-20T13:32:02.889871Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-20T13:32:02.889871Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-20T13:32:02.998871Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-20T13:32:03.000871Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-20T13:32:03.001871Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-20T13:32:03.001871Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-20T13:32:03.312871Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191120 14:32:03
+2019-11-20T13:32:03.441871Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-20T13:32:03.442871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-20T13:56:06.868871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-20T13:56:06.869871Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-20T13:56:06.870871Z 0 [Note] Shutting down slave threads
+2019-11-20T13:56:06.870871Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-20T13:56:06.871871Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-20T13:56:06.872871Z 0 [Note] Binlog end
+2019-11-20T13:56:06.873871Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-20T13:56:06.874871Z 0 [Note] Shutting down plugin 'partition'
+2019-11-20T13:56:06.874871Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-20T13:56:06.875871Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-20T13:56:06.875871Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-20T13:56:06.876871Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-20T13:56:06.876871Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-20T13:56:06.877871Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-20T13:56:06.877871Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-20T13:56:06.878871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-20T13:56:06.878871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-20T13:56:06.879871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-20T13:56:06.879871Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-20T13:56:06.880871Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-20T13:56:06.880871Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-20T13:56:06.881871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-20T13:56:06.881871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-20T13:56:06.882871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-20T13:56:06.882871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-20T13:56:06.883871Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-20T13:56:06.883871Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-20T13:56:06.884871Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-20T13:56:06.884871Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-20T13:56:06.885871Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-20T13:56:06.885871Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-20T13:56:06.886871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-20T13:56:06.886871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-20T13:56:06.886871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-20T13:56:06.887871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-20T13:56:06.887871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-20T13:56:06.888871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-20T13:56:06.888871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-20T13:56:06.889871Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-20T13:56:06.889871Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-20T13:56:06.890871Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-20T13:56:06.890871Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-20T13:56:06.890871Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-20T13:56:06.891871Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-20T13:56:06.891871Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-20T13:56:06.892871Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-20T13:56:06.992871Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-20T13:56:06.994871Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191120 14:56:06
+2019-11-20T13:56:08.297871Z 0 [Note] InnoDB: Shutdown completed; log sequence number 6185052
+2019-11-20T13:56:08.298871Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-20T13:56:08.298871Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-11-20T13:56:08.299871Z 0 [Note] Shutting down plugin 'CSV'
+2019-11-20T13:56:08.299871Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-11-20T13:56:08.299871Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-11-20T13:56:08.300871Z 0 [Note] Shutting down plugin 'binlog'
+2019-11-20T13:56:08.301871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2019-11-20T13:56:30.323871Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-20T13:56:30.323871Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-20T13:56:30.323871Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-20T13:56:30.323871Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-20T13:56:30.323871Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-20T13:56:30.323871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 4404 ...
+2019-11-20T13:56:30.334871Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-20T13:56:30.336871Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-20T13:56:30.337871Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-20T13:56:30.337871Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-20T13:56:30.338871Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-20T13:56:30.338871Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-20T13:56:30.339871Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-20T13:56:30.339871Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-20T13:56:30.378871Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-20T13:56:30.386871Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-20T13:56:30.440871Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-20T13:56:30.644871Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-20T13:56:30.645871Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-20T13:56:30.839871Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-20T13:56:30.841871Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-20T13:56:30.842871Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-20T13:56:30.844871Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6185052
+2019-11-20T13:56:30.845871Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-20T13:56:30.845871Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-20T13:56:30.908871Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-20T13:56:30.910871Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-20T13:56:30.911871Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-20T13:56:30.911871Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-20T13:56:30.957871Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-20T13:56:30.957871Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-20T13:56:31.060871Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191120 14:56:31
+2019-11-20T14:07:02.071871Z 9 [Note] Access denied for user 'buris'@'localhost' (using password: YES)
+2019-11-20T14:07:06.200871Z 10 [Note] Access denied for user 'buris'@'localhost' (using password: YES)
+2019-11-20T14:07:11.071871Z 11 [Note] Access denied for user 'buris'@'localhost' (using password: YES)
+2019-11-20T14:07:14.068871Z 12 [Note] Access denied for user 'buris'@'localhost' (using password: YES)
+2019-11-20T14:29:38.108871Z 44 [Note] Aborted connection 44 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:29:38.115871Z 43 [Note] Aborted connection 43 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:29:38.116871Z 42 [Note] Aborted connection 42 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.447871Z 50 [Note] Aborted connection 50 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.447871Z 48 [Note] Aborted connection 48 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.447871Z 45 [Note] Aborted connection 45 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.447871Z 49 [Note] Aborted connection 49 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.447871Z 47 [Note] Aborted connection 47 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:46:24.448871Z 46 [Note] Aborted connection 46 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 65 [Note] Aborted connection 65 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 67 [Note] Aborted connection 67 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 64 [Note] Aborted connection 64 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 63 [Note] Aborted connection 63 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 62 [Note] Aborted connection 62 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 61 [Note] Aborted connection 61 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 60 [Note] Aborted connection 60 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 59 [Note] Aborted connection 59 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 58 [Note] Aborted connection 58 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 57 [Note] Aborted connection 57 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 56 [Note] Aborted connection 56 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 55 [Note] Aborted connection 55 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.305871Z 54 [Note] Aborted connection 54 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T14:50:34.306871Z 53 [Note] Aborted connection 53 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T15:21:44.666871Z 66 [Note] Aborted connection 66 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-20T15:21:44.667871Z 51 [Note] Aborted connection 51 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:19:08.276424Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-11-27T12:19:08.276424Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-11-27T12:19:08.276424Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-11-27T12:19:08.276424Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-11-27T12:19:08.276424Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-11-27T12:19:08.276424Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 6052 ...
+2019-11-27T12:19:08.323251Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-11-27T12:19:08.323251Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Uses event mutexes
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Memory barrier is not used
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Number of pools: 1
+2019-11-27T12:19:08.323251Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-11-27T12:19:08.354469Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-11-27T12:19:08.370078Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-27T12:19:08.479341Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-27T12:19:08.494950Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 6185798
+2019-11-27T12:19:08.494950Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6185807
+2019-11-27T12:19:08.494950Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6185807
+2019-11-27T12:19:08.494950Z 0 [Note] InnoDB: Database was not shutdown normally!
+2019-11-27T12:19:08.494950Z 0 [Note] InnoDB: Starting crash recovery.
+2019-11-27T12:19:09.134919Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-11-27T12:19:09.134919Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-11-27T12:19:09.134919Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-11-27T12:19:09.353445Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-11-27T12:19:09.353445Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-11-27T12:19:09.353445Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-11-27T12:19:09.369054Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6185807
+2019-11-27T12:19:09.369054Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-27T12:19:09.369054Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-11-27T12:19:09.462708Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-11-27T12:19:09.462708Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-11-27T12:19:09.462708Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-11-27T12:19:09.462708Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-11-27T12:19:09.509535Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191127 13:19:09
+2019-11-27T12:19:09.665625Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-11-27T12:19:09.665625Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-11-27T12:25:07.639457Z 4 [Note] Aborted connection 4 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:25:15.557832Z 9 [Note] Aborted connection 9 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:25:15.557832Z 8 [Note] Aborted connection 8 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:25:15.557832Z 7 [Note] Aborted connection 7 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:25:15.557832Z 6 [Note] Aborted connection 6 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T12:25:15.557832Z 5 [Note] Aborted connection 5 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:03:31.900963Z 125 [Note] Aborted connection 125 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:04:06.658963Z 126 [Note] Aborted connection 126 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:06:01.262963Z 127 [Note] Aborted connection 127 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:06:26.753963Z 128 [Note] Aborted connection 128 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:15:23.025963Z 129 [Note] Aborted connection 129 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:23:16.325963Z 136 [Note] Aborted connection 136 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-11-27T15:27:44.127714Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-11-27T15:27:44.127714Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-11-27T15:27:44.127714Z 0 [Note] Shutting down slave threads
+2019-11-27T15:27:44.127714Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-11-27T15:27:44.127714Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-11-27T15:27:44.127714Z 0 [Note] Binlog end
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'ngram'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'partition'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-11-27T15:27:44.143313Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-11-27T15:27:44.158913Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-11-27T15:27:44.158913Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-11-27T15:27:44.158913Z 0 [Note] InnoDB: Starting shutdown...
+2019-11-27T15:27:44.268111Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-11-27T15:27:44.268111Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191127 16:27:44
+2019-12-04T12:11:49.761824Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-12-04T12:11:49.761824Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-12-04T12:11:49.761824Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-12-04T12:11:49.761824Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-12-04T12:11:49.761824Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-12-04T12:11:49.761824Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 7156 ...
+2019-12-04T12:11:49.824317Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-12-04T12:11:49.824317Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Uses event mutexes
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Memory barrier is not used
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Number of pools: 1
+2019-12-04T12:11:49.824317Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-12-04T12:11:49.855563Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-12-04T12:11:49.871186Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-04T12:11:49.980548Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-12-04T12:11:49.996171Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 6230710
+2019-12-04T12:11:49.996171Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6230719
+2019-12-04T12:11:49.996171Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6230719
+2019-12-04T12:11:49.996171Z 0 [Note] InnoDB: Database was not shutdown normally!
+2019-12-04T12:11:49.996171Z 0 [Note] InnoDB: Starting crash recovery.
+2019-12-04T12:11:50.683587Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-12-04T12:11:50.683587Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-04T12:11:50.683587Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-04T12:11:50.886688Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-04T12:11:50.902311Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-12-04T12:11:50.902311Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-12-04T12:11:50.902311Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6230719
+2019-12-04T12:11:50.917934Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-12-04T12:11:50.917934Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-12-04T12:11:51.027295Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-12-04T12:11:51.027295Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-12-04T12:11:51.027295Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-12-04T12:11:51.027295Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-12-04T12:11:51.074165Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191204 13:11:51
+2019-12-04T12:11:51.355381Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-12-04T12:11:51.355381Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-12-04T12:18:25.062290Z 2 [Note] Aborted connection 2 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.077411Z 44 [Note] Aborted connection 44 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.078411Z 43 [Note] Aborted connection 43 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.079411Z 42 [Note] Aborted connection 42 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.080411Z 41 [Note] Aborted connection 41 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.080411Z 40 [Note] Aborted connection 40 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.081411Z 39 [Note] Aborted connection 39 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.081411Z 38 [Note] Aborted connection 38 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.082411Z 37 [Note] Aborted connection 37 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.083411Z 36 [Note] Aborted connection 36 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.083411Z 35 [Note] Aborted connection 35 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.500411Z 48 [Note] Aborted connection 48 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.501411Z 47 [Note] Aborted connection 47 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:32:01.502411Z 46 [Note] Aborted connection 46 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:33:35.282411Z 53 [Note] Aborted connection 53 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:33:35.282411Z 52 [Note] Aborted connection 52 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:33:35.283411Z 49 [Note] Aborted connection 49 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:33:35.283411Z 51 [Note] Aborted connection 51 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:33:35.283411Z 50 [Note] Aborted connection 50 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:34:12.999411Z 54 [Note] Aborted connection 54 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-04T12:34:13.000411Z 55 [Note] Aborted connection 55 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:21:59.346603Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-12-11T12:21:59.346603Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-12-11T12:21:59.346603Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-12-11T12:21:59.346603Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-12-11T12:21:59.347603Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-12-11T12:21:59.347603Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 8812 ...
+2019-12-11T12:21:59.384596Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-12-11T12:21:59.385595Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-12-11T12:21:59.386595Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-11T12:21:59.386595Z 0 [Note] InnoDB: Uses event mutexes
+2019-12-11T12:21:59.386595Z 0 [Note] InnoDB: Memory barrier is not used
+2019-12-11T12:21:59.387595Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-12-11T12:21:59.387595Z 0 [Note] InnoDB: Number of pools: 1
+2019-12-11T12:21:59.388595Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-12-11T12:21:59.444584Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-12-11T12:21:59.455581Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-11T12:21:59.518569Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-12-11T12:21:59.554562Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 6232638
+2019-12-11T12:21:59.554562Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6232647
+2019-12-11T12:21:59.555561Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6232647
+2019-12-11T12:21:59.556561Z 0 [Note] InnoDB: Database was not shutdown normally!
+2019-12-11T12:21:59.556561Z 0 [Note] InnoDB: Starting crash recovery.
+2019-12-11T12:22:00.251422Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-12-11T12:22:00.251422Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-11T12:22:00.252422Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-11T12:22:00.382396Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-11T12:22:00.396393Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-12-11T12:22:00.397393Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-12-11T12:22:00.398393Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6232647
+2019-12-11T12:22:00.399393Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-12-11T12:22:00.399393Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-12-11T12:22:00.421388Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191211 13:22:00
+2019-12-11T12:22:00.423388Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-12-11T12:22:00.424388Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-12-11T12:22:00.425387Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-12-11T12:22:00.426387Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-12-11T12:22:00.580356Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-12-11T12:22:00.581356Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-12-11T12:27:43.673508Z 17 [Note] Aborted connection 17 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:27:43.673508Z 22 [Note] Aborted connection 22 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:30:32.188649Z 24 [Note] Aborted connection 24 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:36:26.067877Z 53 [Note] Aborted connection 53 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:36:26.067877Z 52 [Note] Aborted connection 52 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:36:26.067877Z 51 [Note] Aborted connection 51 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:36:26.067877Z 57 [Note] Aborted connection 57 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:36:26.067877Z 50 [Note] Aborted connection 50 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:37:44.859877Z 58 [Note] Aborted connection 58 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:40:16.085877Z 59 [Note] Aborted connection 59 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:42:37.735877Z 60 [Note] Aborted connection 60 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:43:31.181877Z 61 [Note] Aborted connection 61 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:44:53.571877Z 62 [Note] Aborted connection 62 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:46:17.257877Z 63 [Note] Aborted connection 63 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T12:46:39.695877Z 67 [Note] Aborted connection 67 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-11T13:41:30.279877Z 68 [Note] Aborted connection 68 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:03:46.237437Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-12-18T12:03:46.237437Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-12-18T12:03:46.237437Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2019-12-18T12:03:46.237437Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2019-12-18T12:03:46.237437Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2019-12-18T12:03:46.237437Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 5988 ...
+2019-12-18T12:03:46.361945Z 0 [ERROR] Can't open shared library 'D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2019-12-18T12:03:46.361945Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Uses event mutexes
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Memory barrier is not used
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Number of pools: 1
+2019-12-18T12:03:46.361945Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-12-18T12:03:46.408636Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-12-18T12:03:46.408636Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-18T12:03:46.502017Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-12-18T12:03:46.533144Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 6236507
+2019-12-18T12:03:46.533144Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6236516
+2019-12-18T12:03:46.533144Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 6236516
+2019-12-18T12:03:46.533144Z 0 [Note] InnoDB: Database was not shutdown normally!
+2019-12-18T12:03:46.533144Z 0 [Note] InnoDB: Starting crash recovery.
+2019-12-18T12:03:47.171247Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-12-18T12:03:47.171247Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-18T12:03:47.171247Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-18T12:03:47.373573Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-18T12:03:47.373573Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-12-18T12:03:47.373573Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-12-18T12:03:47.404700Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 6236516
+2019-12-18T12:03:47.404700Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-12-18T12:03:47.404700Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-12-18T12:03:47.513644Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-12-18T12:03:47.513644Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2019-12-18T12:03:47.513644Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2019-12-18T12:03:47.513644Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-12-18T12:03:47.575898Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191218 13:03:47
+2019-12-18T12:03:47.778224Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-12-18T12:03:47.778224Z 0 [Note] D:\DATA\AdnroidProject\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-12-18T12:18:41.657059Z 9 [Note] Aborted connection 9 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:23:44.603415Z 10 [Note] Aborted connection 10 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:24:04.507460Z 11 [Note] Aborted connection 11 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:25:12.449593Z 12 [Note] Aborted connection 12 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:50:38.665711Z 37 [Note] Aborted connection 37 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:51:01.277711Z 41 [Note] Aborted connection 41 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:53:22.004711Z 43 [Note] Aborted connection 43 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:55:58.173711Z 42 [Note] Aborted connection 42 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:57:42.085711Z 51 [Note] Aborted connection 51 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:57:52.058711Z 47 [Note] Aborted connection 47 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:58:52.724711Z 55 [Note] Aborted connection 55 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T12:59:51.172711Z 56 [Note] Aborted connection 56 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:04:07.413711Z 57 [Note] Aborted connection 57 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:05:57.461711Z 58 [Note] Aborted connection 58 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:06:48.466711Z 60 [Note] Aborted connection 60 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:07:24.245711Z 61 [Note] Aborted connection 61 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:08:16.485711Z 59 [Note] Aborted connection 59 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:09:08.561711Z 62 [Note] Aborted connection 62 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:09:42.989711Z 64 [Note] Aborted connection 64 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:10:43.883711Z 65 [Note] Aborted connection 65 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:13:36.457711Z 63 [Note] Aborted connection 63 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:35:10.425711Z 72 [Note] Aborted connection 72 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:36:37.910711Z 82 [Note] Aborted connection 82 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:37:13.348711Z 84 [Note] Aborted connection 84 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:37:39.847711Z 83 [Note] Aborted connection 83 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:41:26.784711Z 86 [Note] Aborted connection 86 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:41:41.755711Z 87 [Note] Aborted connection 87 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:42:48.451711Z 85 [Note] Aborted connection 85 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:43:29.947711Z 88 [Note] Aborted connection 88 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:44:17.903711Z 89 [Note] Aborted connection 89 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T13:57:47.497711Z 90 [Note] Aborted connection 90 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:01:42.922711Z 92 [Note] Aborted connection 92 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M516.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:18:50.148393Z 119 [Note] Aborted connection 119 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:20:19.190161Z 120 [Note] Aborted connection 120 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:23:52.402445Z 121 [Note] Aborted connection 121 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:24:22.550029Z 122 [Note] Aborted connection 122 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:25:50.468090Z 123 [Note] Aborted connection 123 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:26:16.893289Z 124 [Note] Aborted connection 124 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:26:58.861852Z 125 [Note] Aborted connection 125 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
+2019-12-18T14:28:33.105816Z 126 [Note] Aborted connection 126 to db: 'db_meetapp' user: 'Buris' host: 'INF-N104-M515.etmlnet.local' (Got an error reading communication packets)
