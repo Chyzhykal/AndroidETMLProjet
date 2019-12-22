@@ -316,3 +316,22 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProjec
 PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
 PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
 [Wed Dec 18 13:03:49.054431 2019] [mpm_winnt:notice] [pid 2036:tid 348] AH00354: Child: Starting 64 worker threads.
+AH00112: Warning: DocumentRoot [D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+[Sun Dec 22 19:09:53.336243 2019] [core:warn] [pid 2604:tid 380] AH00098: pid file D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 22 19:09:53.445621 2019] [ssl:warn] [pid 2604:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+[Sun Dec 22 19:09:53.523747 2019] [mpm_winnt:notice] [pid 2604:tid 380] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Sun Dec 22 19:09:53.523747 2019] [mpm_winnt:notice] [pid 2604:tid 380] AH00456: Server built: Jan 28 2016 09:58:25
+[Sun Dec 22 19:09:53.523747 2019] [core:notice] [pid 2604:tid 380] AH00094: Command line: 'D:\\01-Info\\01-projets\\android\\AndroidETMLProjet\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/apache -f D:\\01-Info\\01-projets\\android\\AndroidETMLProjet\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Sun Dec 22 19:09:53.523747 2019] [mpm_winnt:notice] [pid 2604:tid 380] AH00418: Parent: Created child process 7884
+AH00112: Warning: DocumentRoot [D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+[Sun Dec 22 19:09:54.175531 2019] [ssl:warn] [pid 7884:tid 372] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
+[Sun Dec 22 19:09:54.206554 2019] [mpm_winnt:notice] [pid 7884:tid 372] AH00354: Child: Starting 64 worker threads.

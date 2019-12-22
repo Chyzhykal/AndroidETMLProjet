@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_num_disp">Phone Number :</string>
+    <string name="user_disp">Username :</string>
+    <string name="edit">Edit</string>
+    <string name="join_date">Join Date :</string>
+    <string name="back">Back</string>
+    <string name="add_events">+</string>
+    <string name="profile">Profile</string>
+    <string name="create_event">Create Event</string>
+    <string name="create">Create</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="location">Location</string>
+    <string name="promoted">Promoted</string>
+    <string name="is_private">Is Private</string>
+    <string name="max_users">Max Participants</string>
+    <string name="logout">Logout</string>
+    <string name="birth_date1">Birth Date (Year/Month/Day)</string>
+    <string name="birth_date2">Month</string>
+    <string name="birth_date3">Day</string>
+    <string name="kudos">Kudos</string>
+</resources>
