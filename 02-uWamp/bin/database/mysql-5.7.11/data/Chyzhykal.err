@@ -38,3 +38,61 @@
 2019-12-22T18:09:53.175233Z 0 [Note] D:\01-Info\01-projets\android\AndroidETMLProjet\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
 Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2019-12-22T18:09:53.206480Z 0 [Note] InnoDB: Buffer pool(s) load completed at 191222 19:09:53
+2019-12-22T20:43:21.356159Z 0 [Note] D:\01-Info\01-projets\android\AndroidETMLProjet\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2019-12-22T20:43:21.357159Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-12-22T20:43:21.358160Z 0 [Note] Shutting down slave threads
+2019-12-22T20:43:21.358160Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-12-22T20:43:21.359160Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-12-22T20:43:21.360161Z 0 [Note] Binlog end
+2019-12-22T20:43:21.362163Z 0 [Note] Shutting down plugin 'ngram'
+2019-12-22T20:43:21.362163Z 0 [Note] Shutting down plugin 'partition'
+2019-12-22T20:43:21.363164Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-12-22T20:43:21.363164Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-12-22T20:43:21.364166Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-12-22T20:43:21.364166Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-12-22T20:43:21.364166Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-12-22T20:43:21.364166Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-12-22T20:43:21.365167Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-12-22T20:43:21.365167Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-12-22T20:43:21.365167Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-12-22T20:43:21.366166Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-12-22T20:43:21.366166Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-12-22T20:43:21.366166Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-12-22T20:43:21.367166Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-12-22T20:43:21.367166Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-12-22T20:43:21.367166Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-12-22T20:43:21.368168Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-12-22T20:43:21.368168Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-12-22T20:43:21.368168Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-12-22T20:43:21.368168Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-12-22T20:43:21.369168Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-12-22T20:43:21.369168Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-12-22T20:43:21.369168Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-12-22T20:43:21.370169Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-12-22T20:43:21.370169Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-12-22T20:43:21.370169Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-12-22T20:43:21.371170Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-12-22T20:43:21.371170Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-12-22T20:43:21.372170Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-12-22T20:43:21.372170Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-12-22T20:43:21.372170Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-12-22T20:43:21.373170Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-12-22T20:43:21.373170Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-12-22T20:43:21.374171Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-12-22T20:43:21.374171Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-12-22T20:43:21.374171Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-12-22T20:43:21.375172Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-12-22T20:43:21.375172Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-12-22T20:43:21.376172Z 0 [Note] InnoDB: Starting shutdown...
+2019-12-22T20:43:21.477388Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\01-Info\01-projets\android\AndroidETMLProjet\02-uWamp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2019-12-22T20:43:21.479389Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 191222 21:43:21
+2019-12-22T20:43:22.538588Z 0 [Note] InnoDB: Shutdown completed; log sequence number 6252387
+2019-12-22T20:43:22.539588Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-12-22T20:43:22.540589Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-12-22T20:43:22.540589Z 0 [Note] Shutting down plugin 'CSV'
+2019-12-22T20:43:22.540589Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-12-22T20:43:22.541590Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-12-22T20:43:22.542591Z 0 [Note] Shutting down plugin 'binlog'
+2019-12-22T20:43:22.543591Z 0 [Note] D:\01-Info\01-projets\android\AndroidETMLProjet\02-uWamp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+

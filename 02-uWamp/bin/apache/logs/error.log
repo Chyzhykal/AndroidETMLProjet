@@ -335,3 +335,4 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets
 PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
 PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
 [Sun Dec 22 19:09:54.206554 2019] [mpm_winnt:notice] [pid 7884:tid 372] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 22 21:43:20.310421 2019] [mpm_winnt:crit] [pid 7884:tid 372] AH02538: Child: Parent process exited abruptly. Child process is ending
