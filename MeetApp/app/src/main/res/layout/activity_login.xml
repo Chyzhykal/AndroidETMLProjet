@@ -60,6 +60,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="508dp"
+        android:text="Maps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
             android:id="@+id/editText"
             android:layout_width="291dp"

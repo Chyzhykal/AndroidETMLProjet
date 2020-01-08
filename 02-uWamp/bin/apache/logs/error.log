@@ -336,3 +336,25 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets
 PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/01-Info/01-projets/android/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module specifie est introuvable.\r\n in Unknown on line 0
 [Sun Dec 22 19:09:54.206554 2019] [mpm_winnt:notice] [pid 7884:tid 372] AH00354: Child: Starting 64 worker threads.
 [Sun Dec 22 21:43:20.310421 2019] [mpm_winnt:crit] [pid 7884:tid 372] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Jan 08 14:09:17.756464 2020] [core:warn] [pid 6216:tid 336] AH00098: pid file D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 08 14:09:17.912461 2020] [ssl:warn] [pid 6216:tid 336] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Jan 08 14:09:19.222236 2020] [mpm_winnt:notice] [pid 6216:tid 336] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Jan 08 14:09:19.222236 2020] [mpm_winnt:notice] [pid 6216:tid 336] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Jan 08 14:09:19.222236 2020] [core:notice] [pid 6216:tid 336] AH00094: Command line: 'D:\\DATA\\AdnroidProject\\AndroidETMLProjet\\02-uWamp\\bin\\apache\\bin\\httpd.exe -d D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/apache -f D:\\DATA\\AdnroidProject\\AndroidETMLProjet\\02-uWamp\\bin\\apache\\conf\\httpd.conf'
+[Wed Jan 08 14:09:19.229236 2020] [mpm_winnt:notice] [pid 6216:tid 336] AH00418: Parent: Created child process 4144
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/www/myhost-exemple/] does not exist
+[Wed Jan 08 14:09:20.190236 2020] [ssl:warn] [pid 4144:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_interbase.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_oci8_12c.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_firebird.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/DATA/AdnroidProject/AndroidETMLProjet/02-uWamp/bin/php/php-7.0.3/ext\\php_pdo_oci.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Wed Jan 08 14:09:20.227236 2020] [mpm_winnt:notice] [pid 4144:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 08 14:10:49.278048 2020] [mpm_winnt:crit] [pid 4144:tid 348] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Jan 08 14:10:49.278048 2020] [mpm_winnt:warn] [pid 4144:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 08 14:10:49.278048 2020] [mpm_winnt:warn] [pid 4144:tid 532] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.

@@ -7,6 +7,7 @@
 -- * Schema: db_meetapp
 -- ********************************************* 
 
+GRANT ALL PRIVILEGES ON *.* TO 'Buris'@'%' IDENTIFIED BY "root";
 
 -- Database Section
 -- ________________ 

@@ -51,7 +51,14 @@ public class ConnectMySQL {
         try {
             if(connection==null){
                 Class.forName("com.mysql.jdbc.Driver");
-                connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1/db_meetapp", "root", "root");
+
+
+
+                connection = DriverManager.getConnection("jdbc:mysql://" +
+                        //HERE : Modify this IP address to your database server address
+                        "192.168.56.1" +
+                        ":3306" +
+                        "/db_meetapp", "Buris", "root");
 
                 System.out.println("Database connection success");
 

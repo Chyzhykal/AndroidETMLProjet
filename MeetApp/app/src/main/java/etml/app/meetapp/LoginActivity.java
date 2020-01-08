@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Button btnLogin = findViewById(R.id.button);
         Button btnRegister = findViewById(R.id.button5);
-
+        Button btnMap = findViewById(R.id.maps);
         /**
          * Login button
          */
@@ -62,6 +62,7 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
         /**
          * Register button
          */
@@ -69,6 +70,16 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            }
+        });
+
+        /**
+         * Maps button, opens map view
+         */
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, MapsActivity.class));
             }
         });
     }

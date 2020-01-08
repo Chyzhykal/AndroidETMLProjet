@@ -16,6 +16,13 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+GRANT ALL PRIVILEGES ON *.* TO 'Buris'@'%' IDENTIFIED BY "root";
+
+CREATE DATABASE db_meetapp;
+USE db_meetapp;
+
+
+
 --
 -- База данных: `db_meetapp`
 --
