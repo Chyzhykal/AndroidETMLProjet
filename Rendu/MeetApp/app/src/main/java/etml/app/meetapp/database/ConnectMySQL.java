@@ -48,16 +48,27 @@ public class ConnectMySQL {
      * @return Exception if occured, if not then returns null
      */
     public Exception connect() {
+        // Attempts conenction
         try {
+            // If connection doesn't exist yet, create one
             if(connection==null){
                 Class.forName("com.mysql.jdbc.Driver");
-                connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1/db_meetapp", "root", "root");
+
+
+
+                connection = DriverManager.getConnection("jdbc:mysql://" +
+                        //HERE : Modify this IP address to your database server address
+                        "192.168.56.1" +
+                        ":3306" +
+                        "/db_meetapp", "Buris", "root");
 
                 System.out.println("Database connection success");
 
                 String result = "Database Connection Successful\n";
             }
             return null;
+
+            // If an error occurred in the attempt, display message to the console
         } catch (Exception e) {
             System.out.println("Database connection Problem");
             e.getMessage();
