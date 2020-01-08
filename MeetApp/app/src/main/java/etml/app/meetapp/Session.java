@@ -24,6 +24,8 @@ public class Session {
      * @return Session
      */
     public static Session getInstance() {
+
+        // If there isn't an instance of the object yet, create it
         if (instance == null){
             instance = new Session();
         }

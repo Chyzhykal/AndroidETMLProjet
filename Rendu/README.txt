@@ -1,3 +1,17 @@
+/***************** Modifications ******************/
+
+En-tête classe ou méthode : Every class and method now has a header
+
+Commentaires - nombre : More comments added in most files
+
+Commentaires - qualité : Comment quality has been improved
+
+Fonc - DB : Database now works fine and installation manual added
+
+Fonc - activité intro : Login and account creation no longer crashes the app
+
+Fonc - activité suivante : The activity after the login works fine
+
 /***************** Planification ******************/
 
 Link to the Trello :

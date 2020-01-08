@@ -6,35 +6,41 @@
  */
 package etml.app.meetapp.Repositories;
 
-import android.database.Cursor;
-import android.util.Log;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.Date;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import etml.app.meetapp.Entities.CategoryEntitiy;
 import etml.app.meetapp.Entities.EventEntity;
-import etml.app.meetapp.Entities.UserEntity;
 import etml.app.meetapp.database.*;
 
+/**
+ * Repository for the entity object
+ */
 public class EventRepository {
 
+    // Connection object
     Connection connection;
 
+    /**
+     * Constructor
+     */
     public EventRepository(){
         ConnectMySQL.getInstance().connect();
         connection = ConnectMySQL.getInstance().getConnection();
     }
 
+    /**
+     * Adds an event to the database
+     * @param event
+     * @return
+     */
     public boolean add(EventEntity event) {
+
+        // Attempts to add the event entity
         try {
             PreparedStatement st = connection.prepareStatement("INSERT INTO t_event (eveName, eveDescription, evePicture, eveStartDateTime,"
             + "eveEndDatetime, eveLocation, evePromoted, evePrivate, eveMaxUsers, fkUser, fkCategory) VALUES (?,?,?,?,?,?,?,?,?,?,?)");
@@ -58,7 +64,14 @@ public class EventRepository {
         }
     }
 
+    /**
+     * Updates an event in the database
+     * @param event
+     * @return
+     */
     public boolean update(EventEntity event) {
+
+        // Attempts to update the event
         try {
             PreparedStatement st = connection.prepareStatement("UPDATE t_event SET  eveName=?, eveDescription=?, evePicture=?, eveStartDateTime=?,"
                     + "eveEndDatetime=?, eveLocation=?, evePromoted=?, evePrivate=?, eveMaxUsers=?, fkUser=?, fkCategory=?");
@@ -82,8 +95,14 @@ public class EventRepository {
         }
     }
 
+    /**
+     * Removes an event from the database
+     * @param event
+     * @return
+     */
     public boolean remove(EventEntity event) {
 
+        // Attempts to remove the event
         try {
             PreparedStatement st = connection.prepareStatement("DELETE FROM t_event WHERE idEvent=?");
             st.setInt(1, event.getId());
@@ -96,7 +115,14 @@ public class EventRepository {
         }
     }
 
+    /**
+     * Gets an event object from its id
+     * @param eventId
+     * @return
+     */
     public EventEntity getById(int eventId) {
+
+        // Attempts to retrieve the event from the database
         try {
 
             PreparedStatement st = connection.prepareStatement("SELECT eveName, eveDescription, evePicture, eveStartDateTime," +
@@ -106,6 +132,7 @@ public class EventRepository {
             ResultSet result = st.executeQuery();
             EventEntity entity = new EventEntity("");
 
+            // Goes through the row and gets the info
             while (result.next()) {
                 entity.setId(result.getInt(1));
                 entity.setName(result.getString(2));
@@ -127,13 +154,21 @@ public class EventRepository {
         }
     }
 
+    /**
+     * Gets all events from the database
+     * @return
+     */
     public List<EventEntity> getAll() {
+
+        // Attempts to retrieve the events
         try {
             Statement st = connection.createStatement();
             ResultSet result = st.executeQuery("SELECT idEvent, eveName, eveDescription, evePicture, eveStartDateTime,"
                     + "eveEndDatetime, eveLocation, evePromoted, evePrivate, eveMaxUsers, fkUser, fkCategory FROM t_event");
             String resultStr = "";
             List<EventEntity> eventEntities = new LinkedList<>();
+
+            // Goes through each row and stored the event info to a list
             while (result.next()) {
                 EventEntity entity = new EventEntity("");
                 entity.setId(result.getInt(1));
@@ -156,25 +191,5 @@ public class EventRepository {
             e.printStackTrace();
             return null;
         }
-    }
-
-    public List getByName() {
-        return null;
-    }
-
-    public List getNewest() {
-        return null;
-    }
-
-    public List getByCategory(CategoryEntitiy category) {
-        return null;
-    }
-
-    public List getByUser(UserEntity user) {
-        return null;
-    }
-
-    public List getNewerThan(Date date) {
-        return null;
     }
 }
