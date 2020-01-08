@@ -10,21 +10,17 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
-import java.util.List;
 
-import etml.app.meetapp.Entities.CategoryEntitiy;
-import etml.app.meetapp.Entities.EventEntity;
 import etml.app.meetapp.Entities.UserEntity;
 import etml.app.meetapp.Enums.UserCodes;
 import etml.app.meetapp.database.ConnectMySQL;
 
 /**
- * Class for interracting with user information in the database
- *
+ * Repository for the User object
  */
 public class UserRepository {
 
+    // Connection instance
     Connection connection;
 
     /**
@@ -35,15 +31,23 @@ public class UserRepository {
         connection = ConnectMySQL.getInstance().getConnection();
     }
 
+    /**
+     * Adds a user to the database
+     * @param user
+     * @return
+     */
     public UserEntity add(UserEntity user) {
         System.out.println("Im in REpo");
         UserEntity userEntity = new UserEntity();
+
+        // Attmpts to add teh user
         try {
             PreparedStatement st = connection.prepareStatement("SELECT idUser FROM t_user WHERE useName=?");
             st.setString(1, user.getName());
             ResultSet rs = st.executeQuery();
             System.out.println(rs.toString());
 
+            // If the user already exists, return with an exists user code
             if(rs.next()){
                 userEntity.setUserCode(UserCodes.EXISTS);
                 System.out.println("Exists");
@@ -61,15 +65,19 @@ public class UserRepository {
             st.setInt(7, user.getKudos());
 
             boolean result = st.execute();
+            // If there is a result, return with a created user code
             if(result){
                 userEntity.setUserCode(UserCodes.CREATED);
                 System.out.println("NotCreated");
                 return userEntity ;
             }
 
+            // else, return with a not created user code
             userEntity.setUserCode(UserCodes.NOT_CREATED);
             System.out.println("Created");
             return userEntity ;
+
+            // If an error occurred, return with an sql error user code
         } catch (SQLException e) {
             System.out.println("Im in Catch");
             e.printStackTrace();
@@ -78,23 +86,24 @@ public class UserRepository {
         }
     }
 
-    public void update(Object entity) {
-
-    }
-
-    public void remove(Object entity) {
-
-    }
-
+    /**
+     * Gets a user by its id
+     * @param id
+     * @return
+     */
     public UserEntity getById(int id) {
+
+        // User to return
         UserEntity userEntity = new UserEntity();
 
+        // Attempts to retrieve the user from the database
         try {
             PreparedStatement st = connection.prepareStatement("SELECT * FROM t_user WHERE idUser=?");
             st.setInt(1, id);
             ResultSet rs = st.executeQuery();
             System.out.println(rs.toString());
 
+            // If there is a result, return the user's info with an exists user code
             if(rs.next()){
                 userEntity.setId(id);
                 userEntity.setBirthDate(rs.getDate("useBirthDate"));
@@ -106,8 +115,11 @@ public class UserRepository {
                 userEntity.setUserCode(UserCodes.EXISTS);
                 return userEntity ;
             }
+            // If there isn't a result, return an empty UserEntity with a not found user code
             userEntity.setUserCode(UserCodes.NOT_FOUND);
             return userEntity;
+
+            // If an error occurred, return an empty user entity with an sql error user code
         } catch (SQLException e) {
             System.out.println("Im in Catch");
             e.printStackTrace();
@@ -116,25 +128,42 @@ public class UserRepository {
         }
     }
 
-
+    /**
+     * Checks wether a login exists
+     * @param login
+     * @param pwd
+     * @return
+     */
     public UserEntity loginAttempt(String login, String pwd) {
+
+        // User to return
         UserEntity userEntity = new UserEntity();
+
+        // Checks the login
         try {
             System.out.println("Connecting");
             PreparedStatement st = connection.prepareStatement("SELECT idUser, usePwd FROM t_user WHERE useName=?");
             st.setString(1, login);
             ResultSet result = st.executeQuery();
+
+            // While there is a result...
             while(result.next()){
+
+                // Display various information for debugging
                 System.out.println("line 106");
                 System.out.println(result.getString("usePwd"));
                 System.out.println(pwd);
+
+                // If the given password corresponds to the password in the database...
                 if(pwd.equals(result.getString("usePwd")))
                 {
+                    // Return the user entity with a connected user code
                     userEntity.setId(result.getInt("idUser"));
                     userEntity.setUserCode(UserCodes.CONNECTED);
                     System.out.println("line 112");
                     return userEntity ;
                 }
+                // If the two password don't correspond with one another, return with a wrong password user code
                 else{
                     System.out.println("line 114");
                     userEntity.setUserCode(UserCodes.WRONG_PWD);
@@ -142,6 +171,7 @@ public class UserRepository {
                     return userEntity;
                 }
             }
+            // if no results, return with a not found user code
             userEntity.setUserCode(UserCodes.NOT_FOUND);
             System.out.println("line 118");
             return  userEntity;
@@ -150,25 +180,5 @@ public class UserRepository {
             System.out.println("line 122");
             return null;
         }
-    }
-
-
-    public List getNewest() {
-        return null;
-    }
-
-
-    public List getAll() {
-        return null;
-    }
-
-
-    public List getByCategory(CategoryEntitiy category) {
-        return null;
-    }
-
-
-    public List getNewerThan(Date date) {
-        return null;
     }
 }

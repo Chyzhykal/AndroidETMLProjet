@@ -34,6 +34,7 @@ public class CreateEventActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_event);
 
+        // Gets the necessary views
         Button btnBack = findViewById(R.id.button10);
         Button btnCreate = findViewById(R.id.button9);
 
@@ -49,6 +50,7 @@ public class CreateEventActivity extends AppCompatActivity {
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Gets the necessary views
                 TextView eventNameView = findViewById(R.id.editText3);
                 TextView descriptionView = findViewById(R.id.editText4);
                 TextView startDateView = findViewById(R.id.editText9);
@@ -61,6 +63,7 @@ public class CreateEventActivity extends AppCompatActivity {
                 Switch promotedView = findViewById(R.id.switch1);
                 Switch privateView = findViewById(R.id.switch2);
 
+                // Creates a new event with the given values
                 EventEntity newEvent = new EventEntity(eventNameView.getText().toString());
                 newEvent.setDescription(descriptionView.getText().toString());
                 newEvent.setStartDateTime(new java.sql.Date(11052001));
@@ -74,6 +77,7 @@ public class CreateEventActivity extends AppCompatActivity {
                 //newEvent.setCreatorID((int)Session.getInstance().getValue("userId"));
                 newEvent.setCreatorID(4);
 
+                // Adds the event to the database
                 AsyncCreate connect = new AsyncCreate();
                 EventEntity params[] = {newEvent};
                 connect.execute(params);
@@ -81,6 +85,10 @@ public class CreateEventActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Finishes the activity
+     * @param createdEvent
+     */
     public void setCreatedActivity(boolean createdEvent){
         finish();
     }
@@ -89,15 +97,17 @@ public class CreateEventActivity extends AppCompatActivity {
      * Asynchroneously creates the event
      */
     private class AsyncCreate extends AsyncTask<EventEntity, Void, Void> {
+
+        /**
+         * Adds an entity to the database
+         * @param params
+         * @return
+         */
         protected Void doInBackground(EventEntity... params) {
             EventEntity toCreate = params[0];
             EventRepository repository = new EventRepository();
             setCreatedActivity(repository.add(toCreate));
             return null;
-        }
-
-        protected void onPostExecute(Long result) {
-
         }
     }
 }

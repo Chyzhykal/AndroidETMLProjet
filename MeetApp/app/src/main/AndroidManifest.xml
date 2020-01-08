@@ -44,5 +44,4 @@
         <activity android:name=".CreateEventActivity" />
         <activity android:name=".RegisterActivity" />
     </application>
-
 </manifest>

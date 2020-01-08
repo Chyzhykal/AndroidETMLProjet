@@ -44,14 +44,24 @@ public class ProfileActivity extends AppCompatActivity {
      */
     private class AsyncDisplayProfile extends AsyncTask<Integer, Void, Void> {
 
+        // Stored info about the user to display
         private UserEntity createdUser;
 
+        /**
+         * Gets the user's info
+         * @param params
+         * @return
+         */
         protected Void doInBackground(Integer... params) {
             UserRepository repository =  new UserRepository();
             createdUser =  repository.getById(params[0]);
             return null;
         }
 
+        /**
+         * Displays the suer
+         * @param result
+         */
         @Override
         protected void onPostExecute(Void result) {
             //Sets the query result
@@ -64,14 +74,21 @@ public class ProfileActivity extends AppCompatActivity {
      * @param result result of query
      */
     public void setRegisterResult(UserEntity result){
+        // Error text view
         TextView errors = findViewById(R.id.error);
+
+        // If successfully registered, finishes registration process and adds info about user creates
         if(result.getUserCode() == UserCodes.CREATED){
             InterActivity.getInstance().accCreateInfo="User have been created";
             finish();
         }
+
+        // If the user info already exists, display error message
         if(result.getUserCode() == UserCodes.EXISTS ){
             errors.setText("User with this username already exists");
         }
+
+        // If an SQL error occured, display error message
         if(result.getUserCode() == UserCodes.SQL_ERROR ) {
             errors.setText("Database error, please try again later or contact our support at chyzhykal@etml.educanet2.ch ");
         }

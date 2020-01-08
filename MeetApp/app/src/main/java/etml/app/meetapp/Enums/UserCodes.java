@@ -8,6 +8,10 @@
 package etml.app.meetapp.Enums;
 
 //User Login/Register codes
+
+/**
+ * Allows to store various results when manipulating users in the database
+ */
 public enum UserCodes {
     CONNECTED, NOT_CONNECTED, CREATED, EXISTS, NOT_FOUND, NOT_CREATED, SQL_ERROR, WRONG_PWD
 }

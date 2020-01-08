@@ -7,25 +7,44 @@
 
 package etml.app.meetapp.Entities;
 
+/**
+ * Entity for the Category object
+ */
 public class CategoryEntitiy {
 
-    // Category ID
-    int idCategory;
-    // Category Name
-    String name;
+    int idCategory;     // Category ID
+    String name;        // Category Name
 
     /*Getters/Setters zone*/
 
+    /**
+     * Sets the id
+     * @param idCategory
+     */
     public void setId(int idCategory){
         this.idCategory = idCategory;
     }
+
+    /**
+     * Gets the id
+     * @return
+     */
     public int getId(){
         return idCategory;
     }
 
+    /**
+     * Sets the name
+     * @param newName
+     */
     public void setName(String newName){
         this.name = newName;
     }
+
+    /**
+     * Gets the name
+     * @return
+     */
     public String getName(){
         return name;
     }

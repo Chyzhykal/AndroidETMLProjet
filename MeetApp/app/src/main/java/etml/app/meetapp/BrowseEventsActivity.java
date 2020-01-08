@@ -20,11 +20,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.view.View;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.sql.Date;
-
-
 import java.util.List;
 
 import etml.app.meetapp.Entities.EventEntity;
@@ -35,7 +30,6 @@ import etml.app.meetapp.Repositories.EventRepository;
  */
 public class BrowseEventsActivity extends AppCompatActivity {
     LinearLayout view;
-    Button add;
 
     /**
      * Fires when created
@@ -45,8 +39,10 @@ public class BrowseEventsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse_events);
+
+        // Gets the necessary views
         view = findViewById(R.id.scrollviewLayout);
-        add = findViewById(R.id.button7);
+        Button add = findViewById(R.id.button7);
         Button btnProfile = findViewById(R.id.button8);
 
         AsyncGetAll connect = new AsyncGetAll();
@@ -60,6 +56,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
             }
         });
 
+        // Switches to the profile activity
         btnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,6 +74,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
         for (int i = 0; i < events.size(); ++i){
             EventEntity currentEvent = events.get(i);
 
+            // Creates new params for the layout
             ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(
                     ConstraintLayout.LayoutParams.MATCH_PARENT,
                     250
@@ -85,11 +83,14 @@ public class BrowseEventsActivity extends AppCompatActivity {
             params.setMargins(0, 0, 0, 10);
 
             // Creating the necessary views required for the event to be displayed
+
+            // Layout that will contain all the other views
             ConstraintLayout frame = new ConstraintLayout(this);
             frame.setBackgroundColor(Color.rgb(86, 133, 117));
             frame.setLayoutParams(params);
             frame.setId(View.generateViewId());
 
+            // TextView displaying the event name
             TextView eventName = new TextView(this);
             eventName.setText(events.get(i).getName());
             eventName.setTextSize(20);
@@ -103,6 +104,7 @@ public class BrowseEventsActivity extends AppCompatActivity {
             nameConstraints.connect(eventName.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 0);
             nameConstraints.applyTo(frame);
 
+            // TextView displaying the start date/time of the event
             TextView startDateTime = new TextView(this);
             startDateTime.setText(currentEvent.getStartDateTime().toString());
             startDateTime.setTextSize(16);
@@ -116,18 +118,21 @@ public class BrowseEventsActivity extends AppCompatActivity {
             startDateTimeConstraints.connect(startDateTime.getId(), ConstraintSet.LEFT, frame.getId(), ConstraintSet.LEFT, 0);
             startDateTimeConstraints.applyTo(frame);
 
+            // TextView displaying the end date/time of the event
             TextView endDateTime = new TextView(this);
             endDateTime.setText(currentEvent.getEndDateTime().toString());
             endDateTime.setTextSize(16);
             endDateTime.setId(View.generateViewId());
             frame.addView(endDateTime);
 
+            // TextView displaying the location of the event
             TextView location = new TextView(this);
             location.setText(currentEvent.getLocation());
             location.setTextSize(16);
             location.setId(View.generateViewId());
             frame.addView(location);
 
+            // TextView displaying the number of participants in the event
             TextView participants = new TextView(this);
             participants.setText(currentEvent.getParticipantCount() + "/" + currentEvent.getMaxUsers());
             participants.setTextSize(16);
@@ -160,13 +165,24 @@ public class BrowseEventsActivity extends AppCompatActivity {
      * Gets all events with async class
      */
     private class AsyncGetAll extends AsyncTask<Void, Void, Void> {
+        // Events to receive
         List<EventEntity> retrievedEvents;
+
+        /**
+         * Retrieves the events
+         * @param params
+         * @return
+         */
         protected Void doInBackground(Void... params) {
             EventRepository repository = new EventRepository();
             retrievedEvents = repository.getAll();
             return null;
         }
 
+        /**
+         * Displays the retrieved events
+         * @param result
+         */
         @Override
         protected void onPostExecute(Void result) {
             System.out.println("Beofre showing");

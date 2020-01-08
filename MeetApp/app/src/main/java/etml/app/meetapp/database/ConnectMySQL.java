@@ -48,7 +48,9 @@ public class ConnectMySQL {
      * @return Exception if occured, if not then returns null
      */
     public Exception connect() {
+        // Attempts conenction
         try {
+            // If connection doesn't exist yet, create one
             if(connection==null){
                 Class.forName("com.mysql.jdbc.Driver");
 
@@ -65,6 +67,8 @@ public class ConnectMySQL {
                 String result = "Database Connection Successful\n";
             }
             return null;
+
+            // If an error occurred in the attempt, display message to the console
         } catch (Exception e) {
             System.out.println("Database connection Problem");
             e.getMessage();

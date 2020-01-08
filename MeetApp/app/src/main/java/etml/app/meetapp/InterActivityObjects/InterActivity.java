@@ -2,33 +2,39 @@
  * ETML
  * Author :Aleh Chyzhk
  * Date : 11.12.2019
- * Description : objects storage class used to easily transer data from one activity to another
+ * Description : objects storage class used to easily transfer data from one activity to another
  * Note : Java should have it's own storage for such situations, but developers did not have enough time to figure out the syntax
  */
 
 
 package etml.app.meetapp.InterActivityObjects;
 
-// Class is a singleton
+/**
+ * objects storage class used to easily transfer data from one activity to another
+ */
 public class InterActivity {
+    public static String accCreateInfo="";  // Account creation info
+    public static int userId;               // Connected user id
 
-        public static String accCreateInfo="";
+    private static InterActivity instance;  // Instance of the object (due to being a singleton)
 
-        public static int userId;
+    /**
+     * Private constructor
+     */
+    private  InterActivity(){}
 
-        private  InterActivity(){
-
-        }
-
-        private static InterActivity instance;
-
-        public static InterActivity getInstance()
+    /**
+     * Gets the singleton's instance
+     * @return
+     */
+    public static InterActivity getInstance()
+    {
+        // Instantiate the object if it hasn't been done already
+        if (instance == null)
         {
-            if (instance == null)
-            {
-                // Create the instance
-                instance = new InterActivity();
-            }
-            return instance;
+            // Create the instance
+            instance = new InterActivity();
         }
+        return instance;
+    }
 }
