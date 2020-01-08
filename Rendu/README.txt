@@ -12,6 +12,8 @@ Fonc - activité intro : Login and account creation no longer crashes the app
 
 Fonc - activité suivante : The activity after the login works fine
 
+Fonc - sensor : Google maps has been added to application but it doesn't track the phone's location. The button is directly in the application
+
 /***************** Planification ******************/
 
 Link to the Trello :
